@@ -40,4 +40,5 @@ A website to help people who want to build a new pc
 <img src="essex-pc/media/palete.jpg">
 <p>The website incorperates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorperate well into the Pc images and backgrounds used.</p>
 <h3>Typography</h3>
-<p></p>
+<p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to vissualy impaired users and is one of the most compatible fonts on the internet </p>
+<img src="essex-pc/media/Font Arial.jpg">
