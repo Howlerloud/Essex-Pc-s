@@ -35,3 +35,9 @@ A website to help people who want to build a new pc
     <li>To allow people to contact them by email or visit them at a physical location</li>
   </ol>
   <hr>
+  <h2>Design</h2>
+  <h3>Colour Scheme</h3>
+<img src="essex-pc/media/palete.jpg">
+<p>The website incorperates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorperate well into the Pc images and backgrounds used.</p>
+<h3>Typography</h3>
+<p></p>
