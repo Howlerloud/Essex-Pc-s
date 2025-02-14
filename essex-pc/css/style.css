@@ -37,6 +37,10 @@ body {
   text-align: left;
 }
 
+.navbar ul li {
+  font-size: 3rem;
+}
+
 .navbar a:hover {
   background-color: hsl(0, 0%, 10%);
 }
@@ -46,7 +50,7 @@ main {
 }
 
 li {
-  font-size: 2vw;
+  font-size: 1rem;
 }
 
 h1 {
@@ -62,7 +66,8 @@ h2 {
 h3 {
   color: #b0b5ba;
   text-align: left;
-  padding-left: 4vw;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .block_title {
@@ -161,6 +166,31 @@ iframe {
   position: absolute;
 }
 
+#firstbuild {
+  display: inline-block;
+  text-align: center;
+  width:50%;
+  border-style: outset;
+  border-color: #d6e0e5;
+  border-width: 1px;
+  margin: 1rem;
+}
+
+#build1 {
+  width: 70%;
+}
+
+.speclist {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.builds {
+  margin: 1rem;
+  list-style-position: inside;
+  text-align: center;
+}
+
 @media screen and (max-width: 700px) {
   .mobile_media {
     display: inline-block;
@@ -206,9 +236,11 @@ iframe {
     text-align: center;
   }
 
+
   .navbar ul li {
     display: inline-block;
     margin-right: 4px;
+    font-size: 2rem;
   }
 
   li {
