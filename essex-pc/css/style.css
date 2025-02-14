@@ -169,11 +169,23 @@ iframe {
 #firstbuild {
   display: inline-block;
   text-align: center;
-  width:50%;
+  width:47%;
   border-style: outset;
   border-color: #d6e0e5;
   border-width: 1px;
-  margin: 1rem;
+  margin: 1%;
+  height: 50rem;
+}
+
+#secondbuild {
+  display: inline-block;
+  text-align: center;
+  width:47%;
+  border-style: outset;
+  border-color: #d6e0e5;
+  border-width: 1px;
+  margin: 1%;
+  height: 50rem;
 }
 
 #build1 {
@@ -189,6 +201,12 @@ iframe {
   margin: 1rem;
   list-style-position: inside;
   text-align: center;
+}
+
+textarea {
+width: 50%;
+height:10%;
+padding:1%;
 }
 
 @media screen and (max-width: 700px) {
