@@ -42,3 +42,15 @@ A website to help people who want to build a new pc
 <h3>Typography</h3>
 <p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to vissualy impaired users and is one of the most compatible fonts on the internet </p>
 <img src="essex-pc/media/Font Arial.jpg">
+<h2>Imagery</h2>
+<p>The images used are all technology themed, including motherboards, pc cases and desktop setups</p>
+<h2>Wireframes</h2>
+<p>Wireframes were created for desktop and mobile use using wireframe.cc
+<ul>
+  <li>Home Page</li>
+  <li>Builds Page</li>
+  <li>Contact Us Page</li>
+  <li>Feedback Page</li>
+</ul>
+<h2>Features</h2>
+<p>The website is comprised of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 2 sections giving detailed instruction of what to consider when choosing your new pc parts and the second showcasing a video of how to build your own pc. The Builds page will consist of the companies personal builds with list of components used and will allow people to leave feedback. </p>
