@@ -47,7 +47,10 @@ A website to help people who want to build a new pc
 <h2>Wireframes</h2>
 <p>Wireframes were created for desktop and mobile use using wireframe.cc
 <ul>
-  <li>Home Page</li>
+  <li>Home Page Pc</li>
+  <img src="essex-pc/media/Wireframe PC.jpg">
+  <li>Home Page Mobile</li>
+  <img src="essex-pc/media/Wireframe Phone.jpg">
   <li>Builds Page</li>
   <li>Contact Us Page</li>
   <li>Feedback Page</li>
