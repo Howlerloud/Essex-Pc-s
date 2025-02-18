@@ -259,6 +259,10 @@ padding:1%;
     display: inline-block;
     margin-right: 4px;
     font-size: 2rem;
+  } 
+
+  .speclist li {
+    font-size: 1rem;
   }
 
   li {
@@ -311,4 +315,15 @@ padding:1%;
     width: 100%;
   }
 
+  #firstbuild {
+    width: 90%;
+  }
+  
+  #build1 {
+    width:100%
+  }
+
+  #secondbuild {
+    width: 90%;
+  }
 }
