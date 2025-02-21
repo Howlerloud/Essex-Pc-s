@@ -94,5 +94,6 @@ A website to help people who want to build a new pc
 <hr>
  <ul>
    <li>Solved bugs include form page content shoved to the right even though no navbar was present. Fixed by swapping the main attribute out for a new "margin" class.</li>
+   <li>When changing the window size of builds the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when chaing screen sizes</li>
  </ul>
  
