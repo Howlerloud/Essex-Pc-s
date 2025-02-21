@@ -22,11 +22,12 @@ A website to help people who want to build a new pc
 <h3>Returning User Goals</h3>
 <ol>
   <li>To see what other people think of the builds on this website</li>
-  <li>To contact the company to help with issues faced when building my Pc</li>
+  <li>My Pc wont boot, what are some common issues I should check first</li>
 </ol>
 <h3>Frequent User Goals</h3>
 <ol>
   <li>Look for new upgrade parts.</li>
+  <li>To give my opinion on the builds listed</li>
 </ol>
 <h3>Client Goals</h3>
   <ol>
@@ -37,24 +38,32 @@ A website to help people who want to build a new pc
   <hr>
   <h2>Design</h2>
   <h3>Colour Scheme</h3>
-<img src="essex-pc/media/palete.jpg">
+<img src="media/palete.jpg">
 <p>The website incorperates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorperate well into the Pc images and backgrounds used.</p>
 <h3>Typography</h3>
 <p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to vissualy impaired users and is one of the most compatible fonts on the internet. </p>
-<img src="essex-pc/media/Font Arial.jpg">
+<img src="media/Font Arial.jpg">
 <h2>Imagery</h2>
 <p>The images used are all technology themed, including motherboards, pc cases and desktop setups.</p>
 <h2>Wireframes</h2>
 <p>Wireframes were created for desktop and mobile use using wireframe.cc </p>
 <ul>
   <li>Home Page Pc</li>
-  <img src="essex-pc/media/Wireframe PC.jpg">
+  <img src="media/Wireframe PC.jpg">
+  <hr>
   <li>Home Page Mobile</li>
-  <img src="essex-pc/media/Wireframe Phone.jpg">
+  <img src="media/Wireframe Phone.jpg">
+  <hr>
   <li>Builds Page</li>
+  <img src="media/wireframe builds pc.jpg">
+  <li>Builds Mobile</li>
+   <img src="media/wireframe builds phone.jpg">
   <li>Contact Us Page</li>
+    <img src ="media/wireframe contact pc.jpg">
+  <li>Contact Us Page Mobile</li> 
+   <img src="media/wireframe contact phone.jpg">
   <li>Feedback Page</li>
-  <li>Form</li>
+  <li>Feedback Page Mobile</li>
 </ul>
 <h2>Features</h2>
 <p>The website is comprised of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 2 sections giving detailed instruction of what to consider when choosing your new pc parts and the second showcasing a video of how to build your own pc. The Builds page will consist of the companies personal builds with list of components used and will allow people to leave feedback. </p>
