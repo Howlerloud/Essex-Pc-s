@@ -49,10 +49,10 @@ A website to help people who want to build a new pc
 <p>Wireframes were created for desktop and mobile use using wireframe.cc </p>
 <ul>
   <li>Home Page Pc</li>
-  <img src="media/Wireframe PC.jpg">
+  <img src="media/wireframe pc.jpg">
   <hr>
   <li>Home Page Mobile</li>
-  <img src="media/Wireframe Phone.jpg">
+  <img src="media/wireframe phone.jpg">
   <hr>
   <li>Builds Page</li>
   <img src="media/wireframe builds pc.jpg">
