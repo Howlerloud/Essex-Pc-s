@@ -63,7 +63,9 @@ A website to help people who want to build a new pc
   <li>Contact Us Page Mobile</li> 
    <img src="media/wireframe contact phone.jpg">
   <li>Feedback Page</li>
+   <img src="media/wireframe form.jpg">
   <li>Feedback Page Mobile</li>
+   <img src="media/wireframe form phone.jpg">
 </ul>
 <h2>Features</h2>
 <p>The website is comprised of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 2 sections giving detailed instruction of what to consider when choosing your new pc parts and the second showcasing a video of how to build your own pc. The Builds page will consist of the companies personal builds with list of components used and will allow people to leave feedback. </p>
