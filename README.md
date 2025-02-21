@@ -80,6 +80,7 @@ A website to help people who want to build a new pc
 <h3>Form page</h3>
   <ul>
     <li>This is the page linked to the submit button on the builds page, it displays a thank you message for the feedback given by the user.</li>
+    <li>Will contain a link to take you back to the homepage</li>
   </ul>
 <h3>Builds</h3>
 <ul>
@@ -90,3 +91,8 @@ A website to help people who want to build a new pc
    <li>Find us will include a section that showcases where the store is physically located</li>
    <li>The Footer will contain the street adress and the google maps iframe</li>
  </ul>
+<hr>
+ <ul>
+   <li>Solved bugs include form page content shoved to the right even though no navbar was present. Fixed by swapping the main attribute out for a new "margin" class.</li>
+ </ul>
+ 
