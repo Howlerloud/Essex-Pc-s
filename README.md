@@ -42,7 +42,7 @@ A website to help people who want to build a new pc
 <p>The website incorperates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorperate well into the Pc images and backgrounds used.</p>
 <h3>Typography</h3>
 <p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to vissualy impaired users and is one of the most compatible fonts on the internet. </p>
-<img src="media/Font Arial.jpg">
+<img src="media/font arial.jpg">
 <h2>Imagery</h2>
 <p>The images used are all technology themed, including motherboards, pc cases and desktop setups.</p>
 <h2>Wireframes</h2>
