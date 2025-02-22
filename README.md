@@ -68,7 +68,7 @@ A website to help people who want to build a new pc
    <img src="media/wireframe form phone.jpg">
 </ul>
 <h2>Features</h2>
-<p>The website is comprised of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 2 sections giving detailed instruction of what to consider when choosing your new pc parts and the second showcasing a video of how to build your own pc. The Builds page will consist of the companies personal builds with list of components used and will allow people to leave feedback. </p>
+<p>The website is comprised of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 3 sections giving detailed instruction of what to consider when choosing your new pc parts, the second showcasing a video of how to build your own pc and the last listing common causes of pc faults</p>
 <ul>
   <li>All the pages will consist of a navigation bar that aligns to the left side of the screen that scales with the size of the viewers resolution. Once the resolution hits 700px wide the website adjusts moving the navigation bar from the left to the top of the screen using a media query, this improves the users experience. The navigation bar will have a background of a motherboard that contrasts well with the font colour. The navigation bar will include links the Home, Contact us and Builds page.  </li>
 </ul>
@@ -84,15 +84,50 @@ A website to help people who want to build a new pc
   </ul>
 <h3>Builds</h3>
 <ul>
-  <li>This page contains individual sections where builds are displayed and the specifications of the build is listed. The parts listed will all be linked to a online store where the user can purchase the component. Each build has a feedback form for the user to fill out on their thoughts of the build, this can be posted using the submit button.</li>
+  <li>This page contains individual sections where builds are displayed and the specifications of the build is listed. Each build has a feedback form for the user to fill out on their thoughts of the build, this can be posted using the submit button.</li>
 </ul>
 <h3>Find us</h3>
  <ul>
    <li>Find us will include a section that showcases where the store is physically located</li>
    <li>The Footer will contain the street adress and the google maps iframe</li>
  </ul>
-<hr>
+ <h3>Future Implementations</h3>
  <ul>
+   <li>Add an online store for easier purchase options using java script</li>
+   <li>Add new builds to the build page</li>
+   <li>Competitions page showcasing other peoples builds and ideas</li>
+ </ul>
+ <h3>Accessibility</h3>
+ <p>I have used the following to ensure that my website is accessible and user friendly.</p>
+ <ul>
+   <li>Used semantic html</li>
+   <li>Used alt attributes where needed on images to give a good description of what the image shows</li>
+   <li>Used good contrasting colours for the font and background that works well with the images used</li>
+ </ul>
+<hr>
+<h2>Technologies Used</h2>  
+<h3>Language Used</h3> 
+<p>HTML and CSS were both used to create this website</p>
+<h3>Framework, Libraries, websites and programs used</h3> 
+<ul>
+  <li>Git was used for version control</li>
+  <li>Github was used to save and store my files for the website allowing me to access it anywhere on any device</li>
+  <li>Bootstrap 4 CDN was used to help build the navigation bar</li>
+  <li>Edge inspect tool to help troubleshoot and test new styles and features of the website without making it permenant</li>
+  <li>Wireframes were built in wireframe.cc</li>
+</ul>
+   <h2>Deployment And Local Development</h2>
+   <h3>Deployment</h3>
+   <p>Github Pages was used to deploy the live website. The instructions to achieve this are below:</p>  
+<ol>
+  <li>Log in (or sign up) to Github.</li>
+  <li>Find the repository for this project, Bully-Book-Club.</li>
+  <li>Click on the Settings link.</li>
+  <li>Click on the Pages link in the left hand side navigation bar.</li>
+  <li>In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.</li>
+  <li>Click Save. Your live Github Pages site is now deployed at the URL shown.</li>
+</ol>
+   <hr>
    <li>Solved bugs include form page content shoved to the right even though no navbar was present. Fixed by swapping the main attribute out for a new "margin" class.</li>
    <li>When changing the window size of builds the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when chaing screen sizes</li>
  </ul>
