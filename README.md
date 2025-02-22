@@ -126,9 +126,51 @@ A website to help people who want to build a new pc
   <li>Click on the Pages link in the left hand side navigation bar.</li>
   <li>In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.</li>
   <li>Click Save. Your live Github Pages site is now deployed at the URL shown.</li>
+<h3>Local Development</h3>
+<h4>How to Fork</h4>
+<p>To fork the Essex Pc's repository:</p>
+<ol>
+  <li>Log in (or sign up) to Github.</li>
+  <li>Go to the repository for this project, https://github.com/Howlerloud/Essex-Pc-s.</li>
+  <li>Click the Fork button in the top right corner.</li>
+  </ol>
+<h4>How to Clone</h4>
+<p>To clone the Bully-Book-Club repository:</p>
+<ol>
+  <li>Log in (or sign up) to GitHub.</li>
+  <li>Go to the repository for this project, https://github.com/Howlerloud/Essex-Pc-s.</li>
+  <li>Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.</li>
+  <li>Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.</li>
+  <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.</li>
+</ol>
+<h2>Testing</h2>
+<p>Testing was key throughout the development of the project. I utilised the edge inspect tool mutiple times through testing to check and assess key issues with the website</p>
+<p>The following issues were raised during the projects development</p>
+<ul>
+  <li>When changing the window size of builds before it hit the 700px media query mark the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when chaing screen sizes</li> </li>
+  <li>When the website was viewed at lest than 700px width the images would overlap the fixed navigation bar. Fixed using z index to give the navbar priority.</li>
+  <li>When building the website capital letters were used for filepaths, this caused issues when it was uploaded to github and was corrected to allow compatibility</li>
+  <li>During the inital planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
+</ul>
+<h3>W3C Validator</h3>
+<p>The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.</p>
+<ul>
+  <li></li>
+</ul>
+<h3>Solved Bugs</h3>
+<ol>
+  <li>As mentions before in the builds page when the screen was resized on desktop the containers holding the builds would become mis aligned and start to stagger, this would get worse the smaller the screen size up untill the media query at 700px would fix it. To stop my inlign items from staggering I used the vertical-align:top; CSS to fix the issue meaning all my inline blocks would stay at the same level</li>
+  <li>When scrolling on moblile the images would overlap the navbar as the navbar had changed positions to the top of the screen instead of being aligned left. This was fixed useing the z index CSS to give the narbar priority over all over media files</li>
+  <li>Initially the first picture on the index page would slowly overlap the text when resizing the screen. This was fixed by using the justify left CSS and instead of using px to size the image it was changed to view width to allow for resizing</li>
+</ol>
+
+
+
+  
 </ol>
    <hr>
    <li>Solved bugs include form page content shoved to the right even though no navbar was present. Fixed by swapping the main attribute out for a new "margin" class.</li>
    <li>When changing the window size of builds the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when chaing screen sizes</li>
  </ul>
+
  
