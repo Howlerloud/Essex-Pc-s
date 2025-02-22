@@ -10,7 +10,7 @@ body {
   color: #b0b5ba;
   justify-content: left;
   min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .navbar ul {
@@ -26,7 +26,7 @@ body {
   background-image: url("https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg");
   background-color: black;
   background-size: cover;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 .navbar a {
@@ -45,7 +45,8 @@ body {
   background-color: hsl(0, 0%, 10%);
 }
 
-main {
+
+.margin {
   margin-left: 19vw;
 }
 
@@ -130,7 +131,6 @@ ol li p {
 p {
   font-size: 1rem;
   text-align: left;
-
 }
 
 .music {
@@ -174,7 +174,8 @@ iframe {
   border-color: #d6e0e5;
   border-width: 1px;
   margin: 1%;
-  height: 50rem;
+  height: 55rem;
+  vertical-align: top;
 }
 
 #secondbuild {
@@ -185,10 +186,15 @@ iframe {
   border-color: #d6e0e5;
   border-width: 1px;
   margin: 1%;
-  height: 50rem;
+  height: 55rem;
+  vertical-align: top;
 }
 
 #build1 {
+  width: 70%;
+}
+
+#build2 {
   width: 70%;
 }
 
@@ -198,7 +204,6 @@ iframe {
 }
 
 .builds {
-  margin: 1rem;
   list-style-position: inside;
   text-align: center;
 }
@@ -214,8 +219,30 @@ padding:1%;
   text-align: center;
 }
 
+.price {
+  text-align: center;
+}
+
 .buildp {
   text-align: center;
+}
+
+#form-box {
+  margin: 5%;
+  border: #d6e0e5;
+  border-width: 1rem;
+  border-style: inset;
+  padding: 10%;
+  text-align: center;
+}
+
+#feedback_form {
+  text-decoration: underline;
+}
+
+#form-ref {
+  color: #293dd1;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 700px) {
@@ -230,7 +257,11 @@ padding:1%;
     position: relative;
     padding-top: 2rem;
     z-index: -1;
-    transition: top 0.3s;
+  }
+
+  .margin {
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 
   .navbar ul {
@@ -335,4 +366,29 @@ padding:1%;
   #secondbuild {
     width: 90%;
   }
+
+#firstbuild {
+  display: inline-block;
+  text-align: center;
+  width:90%;
+  border-style: outset;
+  border-color: #d6e0e5;
+  border-width: 1px;
+  margin: 5%;
+  height: 50rem;
+  vertical-align: top;
+}
+
+#secondbuild {
+  display: inline-block;
+  text-align: center;
+  width:90%;
+  border-style: outset;
+  border-color: #d6e0e5;
+  border-width: 1px;
+  margin: 5%;
+  height: 50rem;
+  vertical-align: top;
+}
+
 }
