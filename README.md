@@ -126,6 +126,7 @@ A website to help people who want to build a new pc
   <li>Click on the Pages link in the left hand side navigation bar.</li>
   <li>In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.</li>
   <li>Click Save. Your live Github Pages site is now deployed at the URL shown.</li>
+</ol>
 <h3>Local Development</h3>
 <h4>How to Fork</h4>
 <p>To fork the Essex Pc's repository:</p>
