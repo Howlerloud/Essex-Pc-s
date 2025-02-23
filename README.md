@@ -15,19 +15,19 @@ A website to help people who want to build a new pc
 <h2>User Stories</h2>
 <h3>First Time User Goals</h3>
 <ol>
-  <li>I want a good idea of what parts are nessesary to build a Pc</li>
-  <li>I want to be able to check the parts I have chosen are a good choice in the current market</li>
-  <li>I want to be able to navigate the site easily to find the information I want quickly</li>
+  <li>I want a good idea of what parts are nessesary to build a Pc.</li>
+  <li>I want to be able to check the parts I have chosen are a good choice in the current market.</li>
+  <li>I want to be able to navigate the site easily to find the information I want quickly.</li>
 </ol>
 <h3>Returning User Goals</h3>
 <ol>
-  <li>To see what other people think of the builds on this website</li>
-  <li>My Pc wont boot, what are some common issues I should check first</li>
+  <li>To see what steps are needed to build a pc.</li>
+  <li>My Pc wont boot, what are some common issues I should check first.</li>
 </ol>
 <h3>Frequent User Goals</h3>
 <ol>
   <li>Look for new upgrade parts.</li>
-  <li>To give my opinion on the builds listed</li>
+  <li>To give my opinion on the builds listed.</li>
 </ol>
 <h3>Client Goals</h3>
   <ol>
@@ -174,4 +174,24 @@ A website to help people who want to build a new pc
    <li>When changing the window size of builds the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when chaing screen sizes</li>
  </ul>
 
+ <h3>Testing User Stories</h3>
+ <h4>First Times Users</h4>
+  <ul>
+    <li>Im struggling to figure out what parts are needed to build a pc. The Home page has a detailed list in order of what parts are needed to build your own pc and a link to a compatibility checker.</li>
+  </ul>
+    <img src="media/research.jpg">
+    <img src="media/compatibility.jpg">
+  <ul>
+    <li>I want to see if the parts I have chosen are a good choice in this market. The builds page contains some great choices for parts in the current market for users to compair their builds too.</li>
+  </ul>
+      <img src="media/builds.jpg">
+      <ul>
+        <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It is accessable on all pages except the form page which contains a link back to the home page.</li>
+      </ul>
+          <img src="media/navigation.jpg">
+  <h4>Returning Visitors</h4>
+    <ul>
+      <li>I want to be able to see what steps are taken when building a pc. We have included a POV video of how to build a pc from start to finish detailing all the steps needed.</li>
+    </ul>
+    <img src="media/building_steps.jpg">
  
