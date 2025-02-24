@@ -17,13 +17,14 @@ body {
   list-style-type: none;
   padding: 0px;
   width: 18vw;
-  height: 110%;
+  height: 100%;
   border-right: 0.5px solid;
   border-color: #b0b5ba;
   position: fixed;
   top: -15px;
   left: 0;
-  background-image: url("https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg");
+  /* Background source - https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg */
+  background-image: url("../media/navbar_background.jpeg");
   background-color: black;
   background-size: cover;
   font-family:Arial, sans-serif;
@@ -134,8 +135,13 @@ p {
 }
 
 .music {
+  padding-bottom: 1rem;
   float: left;
 }
+
+audio::-webkit-media-controls-panel {
+background-color:#b0b5ba;
+  }
 
 .mobile_media {
   display: none;
@@ -166,7 +172,7 @@ iframe {
   position: absolute;
 }
 
-#firstbuild {
+.firstbuild {
   display: inline-block;
   text-align: center;
   width:47%;
@@ -178,16 +184,9 @@ iframe {
   vertical-align: top;
 }
 
-#secondbuild {
-  display: inline-block;
+.builds {
+  list-style-position: inside;
   text-align: center;
-  width:47%;
-  border-style: outset;
-  border-color: #d6e0e5;
-  border-width: 1px;
-  margin: 1%;
-  height: 55rem;
-  vertical-align: top;
 }
 
 #build1 {
@@ -201,11 +200,6 @@ iframe {
 .speclist {
   font-size: 1rem;
   margin: 1rem;
-}
-
-.builds {
-  list-style-position: inside;
-  text-align: center;
 }
 
 textarea {
@@ -274,7 +268,8 @@ padding:1%;
     position: fixed;
     top: -16px;
     left: 0;
-    background-image: url("https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg");
+    /* Background source - https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg */
+    background-image: url("../media/navbar_background.jpeg");
     background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -294,7 +289,6 @@ padding:1%;
     text-align: center;
   }
 
-
   .navbar ul li {
     display: inline-block;
     margin-right: 4px;
@@ -306,7 +300,7 @@ padding:1%;
   }
 
   li {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   main {
@@ -351,23 +345,15 @@ padding:1%;
   }
 
   .block_title {
-    text-align: left;
+    text-align: center;
     width: 100%;
-  }
-
-  #firstbuild {
-    width: 90%;
   }
   
   #build1 {
     width:100%
   }
 
-  #secondbuild {
-    width: 90%;
-  }
-
-#firstbuild {
+.firstbuild {
   display: inline-block;
   text-align: center;
   width:90%;
@@ -379,16 +365,9 @@ padding:1%;
   vertical-align: top;
 }
 
-#secondbuild {
-  display: inline-block;
-  text-align: center;
-  width:90%;
-  border-style: outset;
-  border-color: #d6e0e5;
-  border-width: 1px;
-  margin: 5%;
-  height: 50rem;
-  vertical-align: top;
+.container {
+  padding-bottom: 1vw;
+  padding-top: 1vw;
 }
 
 }
