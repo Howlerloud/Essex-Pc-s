@@ -7,7 +7,7 @@ A website to help people who want to build a new pc
 <h2>Key Information located on the site</h2>
 <ul>
   <li>Pc build looks</li>
-  <li>Pc parts prices</li>
+  <li>Pc parts recommended in current market</li>
   <li>Instructions on how to build a Pc</li>
   <li>Links you usefull tools to help check compatiblity</li>
 </ul>
@@ -189,9 +189,32 @@ A website to help people who want to build a new pc
         <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It is accessable on all pages except the form page which contains a link back to the home page.</li>
       </ul>
           <img src="media/navigation.jpg">
-  <h4>Returning Visitors</h4>
+  <h4>Returning Users</h4>
     <ul>
       <li>I want to be able to see what steps are taken when building a pc. We have included a POV video of how to build a pc from start to finish detailing all the steps needed.</li>
     </ul>
     <img src="media/building_steps.jpg">
+ <ul>
+   <li>I have just built my pc but it wont boot, what should I troubleshoot first? On our home page we have put alot of the most common issues people have when first building their pc start from the top and work your way down!</li>
+ </ul>
+ <img src="media/fault_steps.jpg">
+ <h4>Frequent Users</h4>
+ <ul>
+   <li>I want to see what parts are a good choice to upgrade my current build. We offer a builds page that lists our personal choices for builds and states what teir we belive they sit at, high, medium and low.</li>
+ </ul>
+ <img src="media/tiers.jpg">
+ <ul>
+   <li>I want to be able to give my feedback of the builds listed. We have included a form under each build to give your opionion on the build and if you think it can be improved in anyway</li>
+ </ul>
+ <img src="media/form.jpg">
+
  
+<h2>Credits</h2>
+<h3>Code Used</h3>
+<ul>
+  <li><a href="https://blog.shahednasser.com/how-to-style-an-audio-element/">CSS used to help style the audio element</a></li>
+</ul>
+<h3>Content</h3>
+<ul>
+  <li>All the content for the website was written by the owner of Essex Pc's</li>
+</ul>
