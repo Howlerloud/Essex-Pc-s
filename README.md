@@ -204,7 +204,9 @@ A website to help people who want to build a new pc
    <li>I want to be able to give my feedback of the builds listed. We have included a form under each build to give your opionion on the build and if you think it can be improved in anyway</li>
  </ul>
  <img src="media/form.jpg">
-
+<h3>Performance Testing</h3>
+<h2>Lighthouse</h2>
+<p>I used lighthouse an inbuilt chrome developer tool that tests the webpage on 4 metrics, performance, accessability,best practices and SEO</p>
  
 <h2>Credits</h2>
 <h3>Code Used</h3>
