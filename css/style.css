@@ -30,6 +30,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+hr {
+  color: #b0b5ba;
+}
+
 .navbar a {
   text-decoration: none;
   color: #d6e0e5;
@@ -349,7 +353,7 @@ textarea {
   }
 
   hr {
-    color: white;
+    color: #b0b5ba;
   }
 
   .block_title {
@@ -483,7 +487,7 @@ textarea {
   }
 
   hr {
-    color: white;
+    color: #b0b5ba;
   }
 
   .block_title {
