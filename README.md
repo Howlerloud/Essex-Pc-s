@@ -107,7 +107,7 @@ A website to help people who want to build a new pc
 <hr>
 <h2>Technologies Used</h2>  
 <h3>Language Used</h3> 
-<p>HTML and CSS were both used to create this website</p>
+<p>HTML, CSS and Java script were used to create this website</p>
 <h3>Framework, Libraries, websites and programs used</h3> 
 <ul>
   <li>Git was used for version control</li>
@@ -164,16 +164,12 @@ A website to help people who want to build a new pc
   <li>As mentions before in the builds page when the screen was resized on desktop the containers holding the builds would become mis aligned and start to stagger, this would get worse the smaller the screen size up untill the media query at 700px would fix it. To stop my inlign items from staggering I used the vertical-align:top; CSS to fix the issue meaning all my inline blocks would stay at the same level</li>
   <li>When scrolling on moblile the images would overlap the navbar as the navbar had changed positions to the top of the screen instead of being aligned left. This was fixed useing the z index CSS to give the narbar priority over all over media files</li>
   <li>Initially the first picture on the index page would slowly overlap the text when resizing the screen. This was fixed by using the justify left CSS and instead of using px to size the image it was changed to view width to allow for resizing</li>
-</ol>
-
-
-
+  <li>The Feedback form would post even if there was no content, Java script was added to return a message to the user that all fields needed to be filled in for them to send their feedback</li>
   
 </ol>
-   <hr>
-   <li>Solved bugs include form page content shoved to the right even though no navbar was present. Fixed by swapping the main attribute out for a new "margin" class.</li>
-   <li>When changing the window size of builds the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when chaing screen sizes</li>
- </ul>
+
+
+
 
  <h3>Testing User Stories</h3>
  <h4>First Times Users</h4>
