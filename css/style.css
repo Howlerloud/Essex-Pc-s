@@ -17,7 +17,7 @@ body {
   list-style-type: none;
   padding: 0px;
   width: 18vw;
-  height: 100vh;
+  height: 100%;
   border-right: 0.5px solid;
   border-color: #b0b5ba;
   position: fixed;
@@ -102,6 +102,7 @@ ol li p {
 
 #pcbuild {
   width: 30vw;
+  height: auto;
   float: right;
   padding-top: 14rem;
   padding-right: 5%;

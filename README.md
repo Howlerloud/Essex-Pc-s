@@ -115,6 +115,7 @@ A website to help people who want to build a new pc
   <li>Bootstrap 4 CDN was used to help build the navigation bar</li>
   <li>Edge inspect tool to help troubleshoot and test new styles and features of the website without making it permenant</li>
   <li>Wireframes were built in wireframe.cc</li>
+  <li>https://tinypng.com/ was used to compress images for better load speed</li>
 </ul>
    <h2>Deployment And Local Development</h2>
    <h3>Deployment</h3>
