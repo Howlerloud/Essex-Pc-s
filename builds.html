@@ -2,16 +2,22 @@
 <html lang="en-us">
 
 <head>
+  <!--META TAGS-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+
+  <!-- Browser Tab Title -->
   <title>Essex PC's Builds</title>
+
+  <!-- My Stylesheet -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  
   <!-- Java script for form from w3schools-->
   <script>
     function validateForm() {
       var x = document.forms["myForm"]["fname"].value;
       if (x == "") {
-        alert("Opinion cannot be left blank");
+        alert("Fields cannot be left blank");
         return false;
       }
     }
@@ -20,6 +26,7 @@
 </head>
 
 <body>
+  <!-- NAVBAR - Bootstrap code used and changed -->
   <nav class="navbar">
     <ul title="PC motherboard background image">
       <li><a href="index.html" id="home">Home</a></li>
@@ -32,11 +39,14 @@
     <header>
       <h1>Here are some great suggestions from us boasting great value for performance on the current market.</h1>
     </header>
+
     <hr>
+
     <section class="builds">
       <div class="firstbuild">
         <h2 class="buildtitle">The FPS Slayer</h2>
         <p class="buildp">Here we have an absolutely great high tier build, boasting great performance for price.</p>
+        <!-- Image credit goes to https://www.pexels.com/photo/interior-of-computer-tower-17576302/-->
         <img id="build1"
           src="https://images.pexels.com/photos/20860011/pexels-photo-20860011/free-photo-of-interior-of-advanced-computer-tower-device.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="A high to mid tier interior pc build">
@@ -56,6 +66,9 @@
         <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
           What do you think of The FPS Slayer?
           <br>
+          <input type="email" aria-describedby="emailHelp" class="form-control" id="Email"
+          placeholder="email@gmail.com">
+          <br>
           <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
           <br>
           <input type="submit" value="Submit">
@@ -64,6 +77,7 @@
       <div class="firstbuild">
         <h2 class="buildtitle">The Redeemer</h2>
         <p class="buildp">Its here to hold its own against the giants (mid tier).</p>
+        <!--Image credit goes to https://www.pexels.com/photo/interior-of-advanced-computer-tower-device-20860011/-->
         <img id="build2"
           src="https://images.pexels.com/photos/17576302/pexels-photo-17576302/free-photo-of-interior-of-computer-tower.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="A mid tier interior pc build">
@@ -78,8 +92,12 @@
           <li>Encased in the Blade midi</li>
         </ul>
         <p class="price">All for the price of £1000</p>
+        <!--W3Schools form code edited-->
         <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
           What do you think of The FPS Slayer?
+          <br>
+          <input type="email" aria-describedby="emailHelp" class="form-control" id="Email"
+          placeholder="email@gmail.com">
           <br>
           <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
           <br>
