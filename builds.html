@@ -6,6 +6,17 @@
   <meta name="viewport" content="width=device-width">
   <title>Essex PC's Builds</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!-- Java script for form from w3schools-->
+  <script>
+    function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Opinion cannot be left blank");
+      return false;
+    }
+  }
+  </script>
+
 </head>
 
 <body>
@@ -39,12 +50,14 @@
             <li>All build into an NZXT case</li>
           </ul>
           <p class="price">A steal at £1600</p>
-          <form method="post" action="form.html"><label for="feedback">What do you think of The FPS Slayer?</label>
+          <!--W3Schools form code edited-->
+          <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" >
+            What do you think of The FPS Slayer?
             <br>
-                <textarea id="feedback"  name="feedback" placeholder="Your Feedback"></textarea>
+            <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
             <br>
-                <input type="submit">
-              </form>  
+            <input type="submit" value="Submit">
+          </form>
     </div>
     <div class="firstbuild">
      <h2 class="buildtitle">The Redeemer</h2>
@@ -61,13 +74,13 @@
              <li>Encased in the Blade midi</li>
            </ul>
            <p class="price">All for the price of £1000</p>
-           <br>
-           <form method="post" action="form.html"><label for="feedback1">What do you think of The Redeemer</label>
+           <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" >
+            What do you think of The FPS Slayer?
             <br>
-                <textarea id="feedback1"  name="feedback" placeholder="Your Feedback"></textarea>
+            <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
             <br>
-                <input type="submit">
-              </form>
+            <input type="submit" value="Submit">
+          </form>
     </div>
   </section>
 </main>
