@@ -2,20 +2,20 @@
 A website to help people who want to build a new pc
 
 <h1>User Experience</h1>
-<p>Essex Pc's is an online pc building company that helps new and expereinced people who are intersted in building their own pc for work and gaming. Users can find information on good builds giving their opinion on the quality of the pc build.</p>
+<p>Essex Pc's is an online pc building company that helps new and experienced people who are interested in building their own pc for work and gaming. Users can find information on good builds giving their opinion on the quality of the pc build.</p>
 <hr>
 <h2>Key Information located on the site</h2>
 <ul>
   <li>Pc build looks</li>
   <li>Pc parts recommended in current market</li>
   <li>Instructions on how to build a Pc</li>
-  <li>Links you usefull tools to help check compatiblity</li>
+  <li>Links you useful tools to help check compatibility</li>
 </ul>
 <hr>
 <h2>User Stories</h2>
 <h3>First Time User Goals</h3>
 <ol>
-  <li>I want a good idea of what parts are nessesary to build a Pc.</li>
+  <li>I want a good idea of what parts are necessary to build a Pc.</li>
   <li>I want to be able to check the parts I have chosen are a good choice in the current market.</li>
   <li>I want to be able to navigate the site easily to find the information I want quickly.</li>
 </ol>
@@ -38,44 +38,44 @@ A website to help people who want to build a new pc
   <hr>
   <h2>Design</h2>
   <h3>Colour Scheme</h3>
-<img src="media/palete.jpg">
-<p>The website incorperates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorperate well into the Pc images and backgrounds used.</p>
+<img src="assets/readme_media/palete.jpg">
+<p>The website incorporates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorperate well into the Pc images and backgrounds used.</p>
 <h3>Typography</h3>
-<p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to vissualy impaired users and is one of the most compatible fonts on the internet. </p>
-<img src="media/font arial.jpg">
+<p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to visually impaired users and is one of the most compatible fonts on the internet. </p>
+<img src="assets/readme_media/font_arial.jpg">
 <h2>Imagery</h2>
 <p>The images used are all technology themed, including motherboards, pc cases and desktop setups.</p>
 <h2>Wireframes</h2>
 <p>Wireframes were created for desktop and mobile use using wireframe.cc </p>
 <ul>
   <li>Home Page Pc</li>
-  <img src="media/wireframe pc.jpg">
+  <img src="assets/readme_media/wireframe_pc.jpg">
   <hr>
   <li>Home Page Mobile</li>
-  <img src="media/wireframe phone.jpg">
+  <img src="assets/readme_media/wireframe_phone.jpg">
   <hr>
   <li>Builds Page</li>
-  <img src="media/wireframe builds pc.jpg">
+  <img src="assets/readme_media/wireframe_builds_pc.jpg">
   <li>Builds Mobile</li>
-   <img src="media/wireframe builds phone.jpg">
+   <img src="assets/readme_media/wireframe_builds_phone.jpg">
   <li>Contact Us Page</li>
-    <img src ="media/wireframe contact pc.jpg">
+    <img src ="assets/readme_media/wireframe_contact_pc.jpg">
   <li>Contact Us Page Mobile</li> 
-   <img src="media/wireframe contact phone.jpg">
+   <img src="assets/readme_media/wireframe_contact_phone.jpg">
   <li>Feedback Page</li>
-   <img src="media/wireframe form.jpg">
+   <img src="assets/readme_media/wireframe_form.jpg">
   <li>Feedback Page Mobile</li>
-   <img src="media/wireframe form phone.jpg">
+   <img src="assets/readme_media/wireframe_form_phone.jpg">
 </ul>
 <h2>Features</h2>
-<p>The website is comprised of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 3 sections giving detailed instruction of what to consider when choosing your new pc parts, the second showcasing a video of how to build your own pc and the last listing common causes of pc faults</p>
+<p>The website consists of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 3 sections giving detailed instruction of what to consider when choosing your new pc parts, the second showcasing a video of how to build your own pc and the last listing common causes of pc faults</p>
 <ul>
   <li>All the pages will consist of a navigation bar that aligns to the left side of the screen that scales with the size of the viewers resolution. Once the resolution hits 700px wide the website adjusts moving the navigation bar from the left to the top of the screen using a media query, this improves the users experience. The navigation bar will have a background of a motherboard that contrasts well with the font colour. The navigation bar will include links the Home, Contact us and Builds page.  </li>
 </ul>
   <h3>Home Page</h3>
 <ul>
   <li>Header with a brief welcome introducing the user to what the website is about.</li>
-  <li>Main content divided into readable sections the first being what parts to consider when building your pc the second being a usefull video that showcases the steps to build a pc.</li>
+  <li>Main content divided into readable sections the first being what parts to consider when building your pc the second being a useful video that showcases the steps to build a pc.</li>
 </ul>
 <h3>Form page</h3>
   <ul>
@@ -89,7 +89,7 @@ A website to help people who want to build a new pc
 <h3>Find us</h3>
  <ul>
    <li>Find us will include a section that showcases where the store is physically located</li>
-   <li>The Footer will contain the street adress and the google maps iframe</li>
+   <li>The Footer will contain the street address and the google maps iframe</li>
  </ul>
  <h3>Future Implementations</h3>
  <ul>
@@ -146,13 +146,13 @@ A website to help people who want to build a new pc
   <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.</li>
 </ol>
 <h2>Testing</h2>
-<p>Testing was key throughout the development of the project. I utilised the edge inspect tool mutiple times through testing to check and assess key issues with the website</p>
+<p>Testing was key throughout the development of the project. I utilised the edge inspect tool multiple times through testing to check and assess key issues with the website</p>
 <p>The following issues were raised during the projects development</p>
 <ul>
-  <li>When changing the window size of builds before it hit the 700px media query mark the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when chaing screen sizes</li> </li>
+  <li>When changing the window size of builds before it hit the 700px media query mark the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when changing screen sizes</li> </li>
   <li>When the website was viewed at lest than 700px width the images would overlap the fixed navigation bar. Fixed using z index to give the navbar priority.</li>
-  <li>When building the website capital letters were used for filepaths, this caused issues when it was uploaded to github and was corrected to allow compatibility</li>
-  <li>During the inital planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
+  <li>When building the website capital letters were used for file paths, this caused issues when it was uploaded to github and was corrected to allow compatibility</li>
+  <li>During the  initiall planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
 </ul>
 <h3>W3C Validator</h3>
 <p>The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.</p>
@@ -161,8 +161,8 @@ A website to help people who want to build a new pc
 </ul>
 <h3>Solved Bugs</h3>
 <ol>
-  <li>As mentions before in the builds page when the screen was resized on desktop the containers holding the builds would become mis aligned and start to stagger, this would get worse the smaller the screen size up untill the media query at 700px would fix it. To stop my inlign items from staggering I used the vertical-align:top; CSS to fix the issue meaning all my inline blocks would stay at the same level</li>
-  <li>When scrolling on moblile the images would overlap the navbar as the navbar had changed positions to the top of the screen instead of being aligned left. This was fixed useing the z index CSS to give the narbar priority over all over media files</li>
+  <li>As mentioned before in the builds page when the screen was resized on desktop the containers holding the builds would become mis aligned and start to stagger, this would get worse the smaller the screen size up untill the media query at 700px would fix it. To stop my inline items from staggering I used the vertical-align:top; CSS to fix the issue meaning all my inline blocks would stay at the same level</li>
+  <li>When scrolling on mobile the images would overlap the navbar as the navbar had changed positions to the top of the screen instead of being aligned left. This was fixed using the z index CSS to give the narbar priority over all over media files</li>
   <li>Initially the first picture on the index page would slowly overlap the text when resizing the screen. This was fixed by using the justify left CSS and instead of using px to size the image it was changed to view width to allow for resizing</li>
   <li>The Feedback form would post even if there was no content, Java script was added to return a message to the user that all fields needed to be filled in for them to send their feedback</li>
   
@@ -176,38 +176,51 @@ A website to help people who want to build a new pc
   <ul>
     <li>Im struggling to figure out what parts are needed to build a pc. The Home page has a detailed list in order of what parts are needed to build your own pc and a link to a compatibility checker.</li>
   </ul>
-    <img src="media/research.jpg">
-    <img src="media/compatibility.jpg">
+    <img src="assets/readme_media/research.jpg">
+    <img src="assets/readme_media/compatibility.jpg">
   <ul>
-    <li>I want to see if the parts I have chosen are a good choice in this market. The builds page contains some great choices for parts in the current market for users to compair their builds too.</li>
+    <li>I want to see if the parts I have chosen are a good choice in this market. The builds page contains some great choices for parts in the current market for users to compare their builds too.</li>
   </ul>
-      <img src="media/builds.jpg">
+      <img src="assets/readme_media/builds.jpg">
       <ul>
-        <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It is accessable on all pages except the form page which contains a link back to the home page.</li>
+        <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It isaccessible on all pages except the form page which contains a link back to the home page.</li>
       </ul>
-          <img src="media/navigation.jpg">
+          <img src="assets/readme_media/navigation.jpg">
   <h4>Returning Users</h4>
     <ul>
       <li>I want to be able to see what steps are taken when building a pc. We have included a POV video of how to build a pc from start to finish detailing all the steps needed.</li>
     </ul>
-    <img src="media/building_steps.jpg">
+    <img src="assets/readme_media/building_steps.jpg">
  <ul>
-   <li>I have just built my pc but it wont boot, what should I troubleshoot first? On our home page we have put alot of the most common issues people have when first building their pc start from the top and work your way down!</li>
+   <li>I have just built my pc but it wont boot, what should I troubleshoot first? On our home page we have put a lot of the most common issues people have when first building their pc start from the top and work your way down!</li>
  </ul>
- <img src="media/fault_steps.jpg">
+ <img src="assets/readme_media/fault_steps.jpg">
  <h4>Frequent Users</h4>
  <ul>
-   <li>I want to see what parts are a good choice to upgrade my current build. We offer a builds page that lists our personal choices for builds and states what teir we belive they sit at, high, medium and low.</li>
+   <li>I want to see what parts are a good choice to upgrade my current build. We offer a builds page that lists our personal choices for builds and states what tier we believe they sit at, high, medium and low.</li>
  </ul>
- <img src="media/tiers.jpg">
+ <img src="assets/readme_media/tiers.jpg">
  <ul>
-   <li>I want to be able to give my feedback of the builds listed. We have included a form under each build to give your opionion on the build and if you think it can be improved in anyway</li>
+   <li>I want to be able to give my feedback of the builds listed. We have included a form under each build to give your opinion on the build and if you think it can be improved in anyway</li>
  </ul>
- <img src="media/form.jpg">
+ <img src="assets/readme_media/form.jpg">
 <h3>Performance Testing</h3>
 <h2>Lighthouse</h2>
-<p>I used lighthouse an inbuilt chrome developer tool that tests the webpage on 4 metrics, performance, accessability,best practices and SEO</p>
- 
+<p>I used lighthouse an inbuilt chrome developer tool that tests the webpage on 4 metrics, performance, accessibility,best practices and SEO</p>
+<h3>Automated Testing</h3>
+<p>I used W3C validator to test the html of all my pages and Jigsaw to test my stylesheet</p>
+<br>
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Findex.html">Index page</a></p>
+<img src="assets/readme_media/index_check.jpg">
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Fbuilds.html">Builds Page</a></p>
+<img src="assets/readme_media/builds_check.jpg">
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Ffind_us.html">Find us here Page</a></p>
+<img src="assets/readme_media/find_us_check.jpg">
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Fform.html%3Femail%3Dhowlerjr%2540hotmail.co.uk%26feedback%3D1">Form Page</a></p>
+<img src="assets/readme_media/form_check.jpg">
+<p>Style sheet</p>
+<img src="assets/readme_media/css_check.jpg">
+  
 <h2>Credits</h2>
 <h3>Code Used</h3>
 <ul>
