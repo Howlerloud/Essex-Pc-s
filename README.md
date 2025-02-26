@@ -259,6 +259,7 @@ A website to help people who want to build or buy a new pc
 <h3>Code Used</h3>
 <ul>
   <li><a href="https://blog.shahednasser.com/how-to-style-an-audio-element/">CSS used to help style the audio element</a></li>
+  <li><a href="https://www.w3schools.com/html/html5_audio.asp">HTML Syntax used for Audio</a></li>
 </ul>
 <h3>Content</h3>
 <ul>
