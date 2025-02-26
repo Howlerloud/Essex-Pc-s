@@ -14,6 +14,17 @@
   
 </head>
 
+  <!-- Java script for form from w3schools-->
+  <script>
+    function validateForm() {
+      var x = document.forms["myForm"]["email"].value;
+      if (x === "") {
+        alert("Fields cannot be left blank");
+        return false;
+      }
+    }
+  </script>
+
 <body>
   <!-- NAVBAR - Bootstrap code used and changed -->
   <nav class="navbar">
@@ -52,12 +63,13 @@
         </ul>
         <p class="price">A steal at £1600</p>
 
-        <!--W3Schools form code edited-->
-        <form action="form.html">
-          <label>Email:</label>
-          <input type="email" name="email" placeholder="Email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
+          What do you think of The FPS Slayer?
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
+          <input type="email" aria-describedby="emailHelp" class="form-control" id="Email"
+          placeholder="email@gmail.com">
+          <br>
+          <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
           <br>
           <input type="submit">
         </form>
@@ -83,10 +95,13 @@
         </ul>
         <p class="price">All for the price of £1000</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html">
-          Email:<input type="email" name="email" placeholder="Email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
+          What do you think of The Redeemer?
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
+          <input type="email" aria-describedby="emailHelp" class="form-control" id="email"
+          placeholder="email@gmail.com">
+          <br>
+          <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
           <br>
           <input type="submit">
         </form>
@@ -111,10 +126,13 @@
         </ul>
         <p class="price">All for the price of £700</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html">
-          Email:<input type="email" name="email" placeholder="Email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
+          What do you think of The Foundation?
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
+          <input type="email" aria-describedby="emailHelp" class="form-control" id="email"
+          placeholder="email@gmail.com">
+          <br>
+          <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
           <br>
           <input type="submit">
         </form>
@@ -140,10 +158,13 @@
         </ul>
         <p class="price">All for the price of £1500</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html">
-          Email:<input type="email" name="email" placeholder="Email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
+          What do you think of The Underdog?
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
+          <input type="email" aria-describedby="emailHelp" class="form-control" id="email"
+          placeholder="email@gmail.com">
+          <br>
+          <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
           <br>
           <input type="submit">
         </form>
