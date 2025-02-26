@@ -18,6 +18,7 @@ A website to help people who want to build or buy a new pc
   <li>I want a good idea of what parts are necessary to build a Pc.</li>
   <li>I want to be able to check the parts I have chosen are a good choice in the current market.</li>
   <li>I want to be able to navigate the site easily to find the information I want quickly.</li>
+  <li>I cant decide what build I want it would be easier if I saw it in person.</li>
 </ol>
 <h3>Returning User Goals</h3>
 <ol>
@@ -208,6 +209,10 @@ A website to help people who want to build or buy a new pc
       </ul>
           <img src="assets/readme_media/navigation.jpg">
           <img src="assets/readme_media/navigation_mobile.jpg">
+          <ul>
+        <li>Im struggling to decide on a build, do you have physical store I can visit to see the pc build in person and decide? Yes you can come visit us at your local store on the highstreet!</li>
+      </ul>
+          <img src="assets/readme_media/find_us.jpg">
   <h4>Returning Users</h4>
     <ul>
       <li>I want to be able to see what steps are taken when building a pc. We have included a POV video of how to build a pc from start to finish detailing all the steps needed.</li>
