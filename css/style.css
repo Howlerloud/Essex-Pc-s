@@ -3,6 +3,7 @@ html {
   width: 100%;
 }
 
+/*Sets the background color of webpage and font family  */
 body {
   background-color: #020204;
   background-image: repeating-linear-gradient(to bottom, #020204, #161515, #020204);
@@ -13,6 +14,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/*To style line breaks*/
+hr {
+  color: #b0b5ba;
+}
+
+/*navigation bar rules */
 .navbar ul {
   list-style-type: none;
   padding: 0px;
@@ -28,10 +35,6 @@ body {
   background-color: black;
   background-size: cover;
   font-family: Arial, sans-serif;
-}
-
-hr {
-  color: #b0b5ba;
 }
 
 .navbar a {
@@ -50,15 +53,12 @@ hr {
   background-color: hsl(0, 0%, 10%);
 }
 
-
+/* sets the margin for all contents except the navbar*/
 .margin {
   margin-left: 19vw;
 }
 
-li {
-  font-size: 1rem;
-}
-
+/* Header sizes and styling*/
 h1 {
   color: #b0b5ba;
   text-align: center;
@@ -75,6 +75,7 @@ h3 {
   text-align: center;
 }
 
+/*Sections for index page*/
 .block_title {
   text-align: left;
   width: 36vw;
@@ -86,6 +87,11 @@ h3 {
   padding-left: 2vw;
   padding-top: 1vw;
   font-size: 1vw;
+}
+
+/*List style and size*/
+li {
+  font-size: 1rem;
 }
 
 ol li {
@@ -101,6 +107,7 @@ ol li p {
   width: inherit;
 }
 
+/* Sizes the image on the build page*/
 #pcbuild {
   width: 30vw;
   height: auto;
@@ -109,6 +116,7 @@ ol li p {
   padding-right: 5%;
 }
 
+/*Styling for links to external webpages*/
 #calc {
   text-decoration: none;
   color: #293dd1;
@@ -117,13 +125,6 @@ ol li p {
 #parts {
   text-decoration: none;
   color: #293dd1;
-}
-
-#pcbuild2 {
-  position: relative;
-  left: 1vw;
-  top: 0;
-  height: 23vw;
 }
 
 .container {
@@ -136,6 +137,7 @@ p {
   text-align: left;
 }
 
+/*Style for music box*/
 .music {
   padding-bottom: 1rem;
   float: left;
@@ -145,10 +147,12 @@ audio::-webkit-media-controls-panel {
   background-color: #b0b5ba;
 }
 
+/*To hide any media not meeting resolution needed*/
 .mobile_media {
   display: none;
 }
 
+/*To Style the youtube link on index and the google link on find_us*/
 iframe {
   width: 30vw;
   border: 0vw;
@@ -174,6 +178,7 @@ iframe {
   position: absolute;
 }
 
+/*To style the size and font of each section that holds a new build*/
 .firstbuild {
   display: inline-block;
   text-align: center;
@@ -233,6 +238,7 @@ textarea {
   height: 2rem
 }
 
+/*To size and style the feedback forms*/
 #feedback_form {
   text-decoration: underline;
 }
@@ -247,6 +253,7 @@ textarea {
   font-size: 2rem;
 }
 
+/*Media query for anything below 900px to resize and restructure looks*/
 @media screen and (max-width: 900px) {
   .mobile_media {
     display: inline-block;
@@ -260,12 +267,13 @@ textarea {
     padding-top: 2rem;
     z-index: -1;
   }
-
+  /*To correct margin when navigation bar moves to top of screen*/
   .margin {
     margin-left: 0rem;
     margin-right: 0rem;
   }
 
+   /*navigation bar rules */
   .navbar ul {
     list-style-type: none;
     padding: 0px;
@@ -303,21 +311,9 @@ textarea {
     font-size: 3rem;
   }
 
+ /*List rules for index page to give them correct size and alignment*/
   .speclist li {
     font-size: 1rem;
-  }
-
-  li {
-    font-size: 1rem;
-  }
-
-  main {
-    margin-left: 0;
-  }
-
-  H1 {
-    font-size: 1rem;
-    padding-top: 6rem;
   }
 
   ol li {
@@ -327,6 +323,25 @@ textarea {
     width: 100%;
   }
 
+  li {
+    font-size: 3vw;
+  }
+
+   /*Headers and main style and font size*/
+  main {
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 1rem;
+    padding-top: 6rem;
+  }
+
+  h2{
+    font-size: 3vw;
+  }
+
+    /*To hide any desktop media when screen to to small*/
   div .desktop {
     display: none;
   }
@@ -335,6 +350,7 @@ textarea {
     display: none;
   }
 
+  /*To Style the youtube link on index and the google link on find_us*/
   iframe {
     bottom: 0;
     height: 15rem;
@@ -348,6 +364,7 @@ textarea {
 
   }
 
+  /*To style line breaks*/
   hr {
     color: #b0b5ba;
   }
@@ -361,6 +378,7 @@ textarea {
     width: 100%
   }
 
+  /*To style the size and font of each section that holds a new build*/
   .firstbuild {
     display: inline-block;
     text-align: center;
@@ -381,6 +399,7 @@ textarea {
 
 }
 
+/*Media query for anything below 700px to resize and restructure looks*/
 @media screen and (max-width: 700px) {
   .mobile_media {
     display: inline-block;
@@ -394,12 +413,13 @@ textarea {
     padding-top: 2rem;
     z-index: -1;
   }
-
+  /*To correct margin when navigation bar moves to top of screen*/
   .margin {
     margin-left: 0rem;
     margin-right: 0rem;
   }
 
+  /*navigation bar rules */
   .navbar ul {
     list-style-type: none;
     padding: 0px;
@@ -436,22 +456,31 @@ textarea {
     margin-right: 4px;
     font-size: 2rem;
   }
+  /*Headers and main style and font size*/
+  main {
+    margin-left: 0;
+  }
 
+  h1 {
+    font-size: 1rem;
+    padding-top: 6rem;
+  }
+
+  h2{
+    font-size: 3vw;
+  }
+
+  /*List rules for index page to give them correct size and alignment*/
   .speclist li {
     font-size: 1rem;
   }
 
   li {
-    font-size: 1rem;
+    font-size: 3vw;
   }
 
-  main {
-    margin-left: 0;
-  }
-
-  H1 {
-    font-size: 1rem;
-    padding-top: 6rem;
+  ol {
+    padding-left: 1rem;
   }
 
   ol li {
@@ -460,7 +489,7 @@ textarea {
     text-align: left;
     width: 100%;
   }
-
+  /*To hide any desktop media when screen to to small*/
   div .desktop {
     display: none;
   }
@@ -469,6 +498,7 @@ textarea {
     display: none;
   }
 
+  /*To Style the youtube link on index and the google link on find_us*/
   iframe {
     bottom: 0;
     height: 15rem;
@@ -482,6 +512,7 @@ textarea {
 
   }
 
+  /*To style line breaks*/
   hr {
     color: #b0b5ba;
   }
