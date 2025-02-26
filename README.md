@@ -1,8 +1,8 @@
 # Essex-Pc-s
-A website to help people who want to build or buy a new pc
+A website to help people who want to build or buy a new PC.
 
 <h1>User Experience</h1>
-<p>Essex Pc's is an online pc building company that helps new and experienced people who are interested in building their own pc for work and gaming. Users can find information on good builds giving their opinion on the quality of the pc build and are able to request the company build the pc for them.</p>
+<p>Essex Pc's is an online PC building company that helps new and experienced people who are interested in building their own PC for work and gaming. Users can find information on good builds giving their opinion on the quality of the PC build and are able to request the company build the PC for them.</p>
 <hr>
 <h2>Key Information located on the site</h2>
 <ul>
@@ -18,11 +18,11 @@ A website to help people who want to build or buy a new pc
   <li>I want a good idea of what parts are necessary to build a Pc.</li>
   <li>I want to be able to check the parts I have chosen are a good choice in the current market.</li>
   <li>I want to be able to navigate the site easily to find the information I want quickly.</li>
-  <li>I cant decide what build I want it would be easier if I saw it in person.</li>
+  <li>I can't decide what build I want. It would be easier if I saw it in person.</li>
 </ol>
 <h3>Returning User Goals</h3>
 <ol>
-  <li>To see what steps are needed to build a pc.</li>
+  <li>To see what steps are needed to build a PC.</li>
   <li>My Pc wont boot, what are some common issues I should check first.</li>
 </ol>
 <h3>Frequent User Goals</h3>
@@ -45,7 +45,7 @@ A website to help people who want to build or buy a new pc
 <p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to visually impaired users and is one of the most compatible fonts on the internet. </p>
 <img src="assets/readme_media/font_arial.jpg">
 <h2>Imagery</h2>
-<p>The images used are all technology themed, including motherboards, pc cases and desktop setups.</p>
+<p>The images used are all technology themed, including motherboards, PC cases and desktop setups.</p>
 <h2>Wireframes</h2>
 <p>Wireframes were created for desktop and mobile use using wireframe.cc </p>
 <ul>
@@ -69,14 +69,14 @@ A website to help people who want to build or buy a new pc
    <img src="assets/readme_media/wireframe_form_phone.jpg">
 </ul>
 <h2>Features</h2>
-<p>The website consists of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 3 sections giving detailed instruction of what to consider when choosing your new pc parts, the second showcasing a video of how to build your own pc and the last listing common causes of pc faults</p>
+<p>The website consists of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 3 sections giving detailed instruction of what to consider when choosing your new PC parts, the second showcasing a video of how to build your own PC and the last listing common causes of PC faults</p>
 <ul>
   <li>All the pages will consist of a navigation bar that aligns to the left side of the screen that scales with the size of the viewers resolution. Once the resolution hits 700px wide the website adjusts moving the navigation bar from the left to the top of the screen using a media query, this improves the users experience. The navigation bar will have a background of a motherboard that contrasts well with the font colour. The navigation bar will include links the Home, Contact us and Builds page.  </li>
 </ul>
   <h3>Home Page</h3>
 <ul>
   <li>Header with a brief welcome introducing the user to what the website is about.</li>
-  <li>Main content divided into readable sections the first being what parts to consider when building your pc the second being a useful video that showcases the steps to build a pc.</li>
+  <li>Main content divided into readable sections the first being what parts to consider when building your PC the second being a useful video that showcases the steps to build a PC.</li>
 </ul>
 <h3>Form page</h3>
   <ul>
@@ -90,7 +90,7 @@ A website to help people who want to build or buy a new pc
 <h3>Find us</h3>
  <ul>
    <li>Find us will include a section that showcases where the store is physically located</li>
-   <li>The Footer will contain the street address and the google maps iframe</li>
+   <li>The Footer will contain the street address and the Google maps iframe</li>
  </ul>
  <h3>Future Implementations</h3>
  <ul>
@@ -101,7 +101,7 @@ A website to help people who want to build or buy a new pc
  <h3>Accessibility</h3>
  <p>I have used the following to ensure that my website is accessible and user friendly.</p>
  <ul>
-   <li>Used semantic html</li>
+   <li>Used semantic HTML</li>
    <li>Used alt attributes where needed on images to give a good description of what the image shows</li>
    <li>Used good contrasting colours for the font and background that works well with the images used</li>
  </ul>
@@ -116,7 +116,7 @@ A website to help people who want to build or buy a new pc
   <li>Bootstrap 4 CDN was used to help build the navigation bar</li>
   <li>Edge inspect tool to help troubleshoot and test new styles and features of the website without making it permanent</li>
   <li>Wireframes were built in wireframe.cc</li>
-  <li>https://tinypng.com/ was used to compress images for better load speed</li>
+  <li>HTTPS://tinypng.com/ was used to compress images for better load speed</li>
 </ul>
    <h2>Deployment And Local Development</h2>
    <h3>Deployment</h3>
@@ -134,14 +134,14 @@ A website to help people who want to build or buy a new pc
 <p>To fork the Essex Pc's repository:</p>
 <ol>
   <li>Log in (or sign up) to Github.</li>
-  <li>Go to the repository for this project, https://github.com/Howlerloud/Essex-Pc-s.</li>
+  <li>Go to the repository for this project, HTTPS://github.com/Howlerloud/Essex-Pc-s.</li>
   <li>Click the Fork button in the top right corner.</li>
   </ol>
 <h4>How to Clone</h4>
 <p>To clone the Essex-Pc-s repository:</p>
 <ol>
   <li>Log in (or sign up) to GitHub.</li>
-  <li>Go to the repository for this project, https://github.com/Howlerloud/Essex-Pc-s.</li>
+  <li>Go to the repository for this project, HTTPS://github.com/Howlerloud/Essex-Pc-s.</li>
   <li>Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.</li>
   <li>Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.</li>
   <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.</li>
@@ -152,9 +152,9 @@ A website to help people who want to build or buy a new pc
 <ul>
   <li>When changing the window size of builds before it hit the 700px media query mark the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when changing screen sizes</li> </li>
   <li>When the website was viewed at lest than 700px width the images would overlap the fixed navigation bar. Fixed using z index to give the navbar priority.</li>
-  <li>When building the website capital letters were used for file paths, this caused issues when it was uploaded to github and was corrected to allow compatibility</li>
+  <li>When building the website capital letters were used for file paths, this caused issues when it was uploaded to GitHub and was corrected to allow compatibility</li>
   <li>During the initial planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
-  <li>Originally my forms used a javascript syntax to inform the user that all form boxes needed to be filler out using a pop up. It worked locally but when uploaded to git it would produce a 405 error. To address this I eventually used a "required" attribute instead.</li>
+  <li>Originally my forms used a JavaScript syntax to inform the user that all form boxes needed to be filler out using a pop up. It worked locally but when uploaded to git it would produce a 405 error. To address this I eventually used a "required" attribute instead.</li>
 </ul>
 <h4>Testing Links</h4>
 <ol>
@@ -187,8 +187,8 @@ A website to help people who want to build or buy a new pc
 </ul>
 <h3>Solved Bugs</h3>
 <ol>
-  <li>As mentioned before in the builds page when the screen was resized on desktop the containers holding the builds would become mis aligned and start to stagger, this would get worse the smaller the screen size up untill the media query at 700px would fix it. To stop my inline items from staggering I used the vertical-align:top; CSS to fix the issue meaning all my inline blocks would stay at the same level</li>
-  <li>When scrolling on mobile the images would overlap the navbar as the navbar had changed positions to the top of the screen instead of being aligned left. This was fixed using the z index CSS to give the narbar priority over all over media files</li>
+  <li>As mentioned before in the builds page when the screen was resized on desktop the containers holding the builds would become misaligned and start to stagger, this would get worse the smaller the screen size up until the media query at 700px would fix it. To stop my inline items from staggering I used the vertical-align:top; CSS to fix the issue meaning all my inline blocks would stay at the same level</li>
+  <li>When scrolling on mobile the images would overlap the navbar as the navbar had changed positions to the top of the screen instead of being aligned left. This was fixed using the z index CSS to give the navbar priority over all over media files</li>
   <li>Initially the first picture on the index page would slowly overlap the text when resizing the screen. This was fixed by using the justify left CSS and instead of using px to size the image it was changed to view width to allow for resizing</li>
   <li>The Feedback form would post even if there was no content, Java script was added to return a message to the user that all fields needed to be filled in for them to send their feedback</li>
 </ol>
@@ -196,7 +196,7 @@ A website to help people who want to build or buy a new pc
  <h3>Testing User Stories</h3>
  <h4>First Times Users</h4>
   <ul>
-    <li>Im struggling to figure out what parts are needed to build a pc. The Home page has a detailed list in order of what parts are needed to build your own pc and a link to a compatibility checker.</li>
+    <li>Im struggling to figure out what parts are needed to build a PC. The Home page has a detailed list in order of what parts are needed to build your own PC and a link to a compatibility checker.</li>
   </ul>
     <img src="assets/readme_media/research.jpg">
     <img src="assets/readme_media/compatibility.jpg">
@@ -210,16 +210,16 @@ A website to help people who want to build or buy a new pc
           <img src="assets/readme_media/navigation.jpg">
           <img src="assets/readme_media/navigation_mobile.jpg">
           <ul>
-        <li>Im struggling to decide on a build, do you have physical store I can visit to see the pc build in person and decide? Yes you can come visit us at your local store on the highstreet!</li>
+        <li>Im struggling to decide on a build, do you have physical store I can visit to see the PC build in person and decide? Yes you can come visit us at your local store on the highstreet!</li>
       </ul>
           <img src="assets/readme_media/find_us.jpg">
   <h4>Returning Users</h4>
     <ul>
-      <li>I want to be able to see what steps are taken when building a pc. We have included a POV video of how to build a pc from start to finish detailing all the steps needed.</li>
+      <li>I want to be able to see what steps are taken when building a PC. We have included a POV video of how to build a PC from start to finish detailing all the steps needed.</li>
     </ul>
     <img src="assets/readme_media/building_steps.jpg">
  <ul>
-   <li>I have just built my pc but it wont boot, what should I troubleshoot first? On our home page we have put a lot of the most common issues people have when first building their pc start from the top and work your way down!</li>
+   <li>I have just built my PC but it wont boot, what should I troubleshoot first? On our home page we have put a lot of the most common issues people have when first building their PC start from the top and work your way down!</li>
  </ul>
  <img src="assets/readme_media/fault_steps.jpg">
  <h4>Frequent Users</h4>
@@ -233,7 +233,7 @@ A website to help people who want to build or buy a new pc
  <img src="assets/readme_media/form.jpg">
 <h3>Performance Testing</h3>
 <h2>Lighthouse</h2>
-<p>I used lighthouse an inbuilt chrome developer tool that tests the webpage on 4 metrics, performance, accessibility,best practices and SEO</p>
+<p>I used lighthouse an inbuilt chrome developer tool that tests the website on 4 metrics, performance, accessibility,best practices and SEO</p>
 <p>Index page scores desktop</p>
 <img src="assets/readme_media/index_lighthouse.jpg">
   <p>Index page scores mobile</p>
@@ -250,9 +250,9 @@ A website to help people who want to build or buy a new pc
 <img src="assets/readme_media/form_lighthouse.jpg">
   <p>form page scores mobile</p>
 <img src="assets/readme_media/form_lighthouse_mobile.jpg">
-<p>When testing my webpage using lighthouse it highlights the fact my navigation bar takes the longest to load due to the jpg and the size of the bar. To help I used tinypng to compress the image. It instead recommends updating my jpg to the next gen format WebP and AVIF.</p>
+<p>When testing my website using lighthouse it highlights the fact my navigation bar takes the longest to load due to the jpg and the size of the bar. To help I used tinypng to compress the image. It instead recommends updating my jpg to the next gen format WebP and AVIF.</p>
 <br>
-<p>Lighthouse also suggests preconnecting third party origins like my youtube iframe</p>
+<p>Lighthouse also suggests preconnecting third party origins like my YouTube iframe</p>
 <hr>
 
 <h2>Credits</h2>
