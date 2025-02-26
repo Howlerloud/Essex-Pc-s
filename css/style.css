@@ -277,7 +277,7 @@ textarea {
     top: -16px;
     left: 0;
     /* Background source - https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg */
-    background-image: url("../media/navbar_background.jpeg");
+    background-image: url("../assets/navbar_background.jpeg");
     background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -411,7 +411,7 @@ textarea {
     top: -16px;
     left: 0;
     /* Background source - https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg */
-    background-image: url("../media/navbar_background.jpeg");
+    background-image: url("../assets/navbar_background.jpeg");
     background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
