@@ -207,6 +207,7 @@ A website to help people who want to build or buy a new pc
         <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It inaccessible on all pages except the form page which contains a link back to the home page.</li>
       </ul>
           <img src="assets/readme_media/navigation.jpg">
+          <img src="assets/readme_media/navigation_mobile.jpg">
   <h4>Returning Users</h4>
     <ul>
       <li>I want to be able to see what steps are taken when building a pc. We have included a POV video of how to build a pc from start to finish detailing all the steps needed.</li>
