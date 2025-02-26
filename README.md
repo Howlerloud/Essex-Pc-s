@@ -57,7 +57,7 @@ A website to help people who want to build or buy a new pc
   <li>Builds Page</li>
   <img src="assets/readme_media/wireframe_builds_pc.jpg">
   <li>Builds Mobile</li>
-   <img src="assets/readme_media/wireframe_builds_phone.jpg">
+   <img src="assets/readme_media/wireframe_build_phone.jpg">
   <li>Contact Us Page</li>
     <img src ="assets/readme_media/wireframe_contact_pc.jpg">
   <li>Contact Us Page Mobile</li> 
