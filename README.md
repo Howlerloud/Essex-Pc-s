@@ -39,7 +39,7 @@ A website to help people who want to build or buy a new pc
   <h2>Design</h2>
   <h3>Colour Scheme</h3>
 <img src="assets/readme_media/palete.jpg">
-<p>The website incorporates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorperate well into the Pc images and backgrounds used.</p>
+<p>The website incorporates dark colours, this gives a more professional feel to the site as well as making it easier on the eyes. The dark colours chosen incorporate well into the Pc images and backgrounds used.</p>
 <h3>Typography</h3>
 <p>I have chosen Arial sans-serif as my font, this font is both easy to read giving great access to visually impaired users and is one of the most compatible fonts on the internet. </p>
 <img src="assets/readme_media/font_arial.jpg">
@@ -113,7 +113,7 @@ A website to help people who want to build or buy a new pc
   <li>Git was used for version control</li>
   <li>Github was used to save and store my files for the website allowing me to access it anywhere on any device</li>
   <li>Bootstrap 4 CDN was used to help build the navigation bar</li>
-  <li>Edge inspect tool to help troubleshoot and test new styles and features of the website without making it permenant</li>
+  <li>Edge inspect tool to help troubleshoot and test new styles and features of the website without making it permanent</li>
   <li>Wireframes were built in wireframe.cc</li>
   <li>https://tinypng.com/ was used to compress images for better load speed</li>
 </ul>
@@ -146,21 +146,21 @@ A website to help people who want to build or buy a new pc
   <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.</li>
 </ol>
 <h2>Testing</h2>
-<p>Testing was key throughout the development of the project. I utilised the edge inspect tool multiple times and the chrome developer tool throughout testing to check and assess key issues with the website</p>
+<p>Testing was key throughout the development of the project. I utilized the edge inspect tool multiple times and the chrome developer tool throughout testing to check and assess key issues with the website</p>
 <p>The following issues were raised during the projects development</p>
 <ul>
   <li>When changing the window size of builds before it hit the 700px media query mark the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when changing screen sizes</li> </li>
   <li>When the website was viewed at lest than 700px width the images would overlap the fixed navigation bar. Fixed using z index to give the navbar priority.</li>
   <li>When building the website capital letters were used for file paths, this caused issues when it was uploaded to github and was corrected to allow compatibility</li>
-  <li>During the  initiall planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
+  <li>During the initial planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
   <li>Originally my forms used a javascript syntax to inform the user that all form boxes needed to be filler out using a pop up. It worked locally but when uploaded to git it would produce a 405 error. To address this I eventually used a "required" attribute instead.</li>
 </ul>
 <h4>Testing Links</h4>
 <ol>
-  <li>All internal links were tested on the index page and worked. All external links opened in a new tab at took you to the correct address.</li>
-  <li>All internal links were tested on the find us page worked. All external links opened in a new tab at took you to the correct address.</li>
-  <li>All internal links were tested on the builds page worked. All external links opened in a new tab at took you to the correct address.</li>
-  <li>All internal links were tested on the form page worked. All external links opened in a new tab at took you to the correct address.</li>
+  <li>All internal links tested on the index page  worked. All external links opened in a new tab and took you to the correct address.</li>
+  <li>All internal links tested on the find us page worked. All external links opened in a new tab and took you to the correct address.</li>
+  <li>All internal links tested on the builds page worked. All external links opened in a new tab and took you to the correct address.</li>
+  <li>All internal links tested on the form page worked. All external links opened in a new tab and took you to the correct address.</li>
 </ol>
 <h4>Testing Forms</h4>
 <ol>
@@ -204,7 +204,7 @@ A website to help people who want to build or buy a new pc
   </ul>
       <img src="assets/readme_media/builds.jpg">
       <ul>
-        <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It isaccessible on all pages except the form page which contains a link back to the home page.</li>
+        <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It inaccessible on all pages except the form page which contains a link back to the home page.</li>
       </ul>
           <img src="assets/readme_media/navigation.jpg">
   <h4>Returning Users</h4>
