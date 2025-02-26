@@ -21,6 +21,30 @@
     return false;
   }
 }
+<script>
+    function validateForm() {
+    var x = document.forms["myForm1"]["email"].value;
+    if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+<script>
+    function validateForm() {
+    var x = document.forms["myForm2"]["email"].value;
+    if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+<script>
+    function validateForm() {
+    var x = document.forms["myForm3"]["email"].value;
+    if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
   </script>
 
 </head>
@@ -64,7 +88,7 @@
         <p class="price">A steal at £1600</p>
 
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+        <form name="myForm1" action="form.html" onsubmit="return validateForm()" method="post" required>
           Email:<input type="text" name="email" placeholder="Email@gmail.com">
           <br>
           <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
@@ -91,7 +115,7 @@
         </ul>
         <p class="price">All for the price of £1000</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+        <form name="myForm2" action="form.html" onsubmit="return validateForm()" method="post" required>
           Email:<input type="text" name="email" placeholder="Email@gmail.com">
           <br>
           <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
@@ -118,7 +142,7 @@
         </ul>
         <p class="price">All for the price of £700</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+        <form name="myForm3" action="form.html" onsubmit="return validateForm()" method="post" required>
           Email:<input type="text" name="email" placeholder="Email@gmail.com">
           <br>
           <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
