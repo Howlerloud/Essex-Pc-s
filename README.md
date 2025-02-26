@@ -2,7 +2,7 @@
 A website to help people who want to build or buy a new pc
 
 <h1>User Experience</h1>
-<p>Essex Pc's is an online pc building company that helps new and experienced people who are interested in building their own pc for work and gaming. Users can find information on good builds giving their opinion on the quality of the pc build.</p>
+<p>Essex Pc's is an online pc building company that helps new and experienced people who are interested in building their own pc for work and gaming. Users can find information on good builds giving their opinion on the quality of the pc build and are able to request the company build the pc for them.</p>
 <hr>
 <h2>Key Information located on the site</h2>
 <ul>
