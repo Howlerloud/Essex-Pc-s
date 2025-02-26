@@ -1,5 +1,5 @@
 # Essex-Pc-s
-A website to help people who want to build a new pc
+A website to help people who want to build or buy a new pc
 
 <h1>User Experience</h1>
 <p>Essex Pc's is an online pc building company that helps new and experienced people who are interested in building their own pc for work and gaming. Users can find information on good builds giving their opinion on the quality of the pc build.</p>
@@ -55,7 +55,7 @@ A website to help people who want to build a new pc
   <img src="assets/readme_media/wireframe_phone.jpg">
   <hr>
   <li>Builds Page</li>
-  <img src="assets/readme_media/wireframe_builds_pc.jpg">
+  <img src="assets/readme_media/wireframe_build_pc.jpg">
   <li>Builds Mobile</li>
    <img src="assets/readme_media/wireframe_builds_phone.jpg">
   <li>Contact Us Page</li>
@@ -122,7 +122,7 @@ A website to help people who want to build a new pc
    <p>Github Pages was used to deploy the live website. The instructions to achieve this are below:</p>  
 <ol>
   <li>Log in (or sign up) to Github.</li>
-  <li>Find the repository for this project, Bully-Book-Club.</li>
+  <li>Find the repository for this project, Essex-Pc-s.</li>
   <li>Click on the Settings link.</li>
   <li>Click on the Pages link in the left hand side navigation bar.</li>
   <li>In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.</li>
@@ -137,7 +137,7 @@ A website to help people who want to build a new pc
   <li>Click the Fork button in the top right corner.</li>
   </ol>
 <h4>How to Clone</h4>
-<p>To clone the Bully-Book-Club repository:</p>
+<p>To clone the Essex-Pc-s repository:</p>
 <ol>
   <li>Log in (or sign up) to GitHub.</li>
   <li>Go to the repository for this project, https://github.com/Howlerloud/Essex-Pc-s.</li>
@@ -146,16 +146,41 @@ A website to help people who want to build a new pc
   <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.</li>
 </ol>
 <h2>Testing</h2>
-<p>Testing was key throughout the development of the project. I utilised the edge inspect tool multiple times through testing to check and assess key issues with the website</p>
+<p>Testing was key throughout the development of the project. I utilised the edge inspect tool multiple times and the chrome developer tool throughout testing to check and assess key issues with the website</p>
 <p>The following issues were raised during the projects development</p>
 <ul>
   <li>When changing the window size of builds before it hit the 700px media query mark the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when changing screen sizes</li> </li>
   <li>When the website was viewed at lest than 700px width the images would overlap the fixed navigation bar. Fixed using z index to give the navbar priority.</li>
   <li>When building the website capital letters were used for file paths, this caused issues when it was uploaded to github and was corrected to allow compatibility</li>
   <li>During the  initiall planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
+  <li>Originally my forms used a javascript syntax to inform the user that all form boxes needed to be filler out using a pop up. It worked locally but when uploaded to git it would produce a 405 error. To address this I eventually used a "required" attribute instead.</li>
 </ul>
+<h4>Testing Links</h4>
+<ol>
+  <li>All internal links were tested on the index page and worked. All external links opened in a new tab at took you to the correct address.</li>
+  <li>All internal links were tested on the find us page worked. All external links opened in a new tab at took you to the correct address.</li>
+  <li>All internal links were tested on the builds page worked. All external links opened in a new tab at took you to the correct address.</li>
+  <li>All internal links were tested on the form page worked. All external links opened in a new tab at took you to the correct address.</li>
+</ol>
+<h4>Testing Forms</h4>
+<ol>
+  <li>Trying to submit the feedback form with no fields filled will prompt the user to fill in the email first.</li>
+  <li>Trying to submit the feedback form with just the email filled in will then be prompted to fill in the feedback section</li>
+  <li>Once both email and feedback have been filled will the form allowed to be sent</li>
+</ol>
 <h3>W3C Validator</h3>
-<p>The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.</p>
+<p>The W3C validator was used to validate the HTML on all pages of the website. Jigsaw was used to validate CSS in the style.css file.</p>
+<br>
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Findex.html">Index page</a></p>
+<img src="assets/readme_media/index_check.jpg">
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Fbuilds.html">Builds Page</a></p>
+<img src="assets/readme_media/builds_check.jpg">
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Ffind_us.html">Find us here Page</a></p>
+<img src="assets/readme_media/find_us_check.jpg">
+<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Fform.html%3Femail%3Dhowlerjr%2540hotmail.co.uk%26feedback%3D1">Form Page</a></p>
+<img src="assets/readme_media/form_check.jpg">
+<p>Style sheet</p>
+<img src="assets/readme_media/css_check.jpg">
 <ul>
   <li></li>
 </ul>
@@ -165,11 +190,7 @@ A website to help people who want to build a new pc
   <li>When scrolling on mobile the images would overlap the navbar as the navbar had changed positions to the top of the screen instead of being aligned left. This was fixed using the z index CSS to give the narbar priority over all over media files</li>
   <li>Initially the first picture on the index page would slowly overlap the text when resizing the screen. This was fixed by using the justify left CSS and instead of using px to size the image it was changed to view width to allow for resizing</li>
   <li>The Feedback form would post even if there was no content, Java script was added to return a message to the user that all fields needed to be filled in for them to send their feedback</li>
-  
 </ol>
-
-
-
 
  <h3>Testing User Stories</h3>
  <h4>First Times Users</h4>
@@ -207,20 +228,27 @@ A website to help people who want to build a new pc
 <h3>Performance Testing</h3>
 <h2>Lighthouse</h2>
 <p>I used lighthouse an inbuilt chrome developer tool that tests the webpage on 4 metrics, performance, accessibility,best practices and SEO</p>
-<h3>Automated Testing</h3>
-<p>I used W3C validator to test the html of all my pages and Jigsaw to test my stylesheet</p>
+<p>Index page scores desktop</p>
+<img src="assets/readme_media/index_lighthouse.jpg">
+  <p>Index page scores mobile</p>
+<img src="assets/readme_media/index_lighthouse_mobile.jpg">
+<p>Builds page scores</p>
+<img src="assets/readme_media/builds_lighthouse.jpg">
+  <p>Builds page scores mobile</p>
+<img src="assets/readme_media/builds_lighthouse_mobile.jpg">
+<p>Find us page scores</p>
+<img src="assets/readme_media/find_us_lighthouse.jpg">
+  <p>find us page scores mobile</p>
+<img src="assets/readme_media/find_us_lighthouse_mobile.jpg">
+<p>Form page scores</p>
+<img src="assets/readme_media/form_lighthouse.jpg">
+  <p>form page scores mobile</p>
+<img src="assets/readme_media/form_lighthouse_mobile.jpg">
+<p>When testing my webpage using lighthouse it highlights the fact my navigation bar takes the longest to load due to the jpg and the size of the bar. To help I used tinypng to compress the image. It instead recommends updating my jpg to the next gen format WebP and AVIF.</p>
 <br>
-<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Findex.html">Index page</a></p>
-<img src="assets/readme_media/index_check.jpg">
-<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Fbuilds.html">Builds Page</a></p>
-<img src="assets/readme_media/builds_check.jpg">
-<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Ffind_us.html">Find us here Page</a></p>
-<img src="assets/readme_media/find_us_check.jpg">
-<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhowlerloud.github.io%2FEssex-Pc-s%2Fform.html%3Femail%3Dhowlerjr%2540hotmail.co.uk%26feedback%3D1">Form Page</a></p>
-<img src="assets/readme_media/form_check.jpg">
-<p>Style sheet</p>
-<img src="assets/readme_media/css_check.jpg">
-  
+<p>Lighthouse also suggests preconnecting third party origins like my youtube iframe</p>
+<hr>
+
 <h2>Credits</h2>
 <h3>Code Used</h3>
 <ul>
@@ -229,4 +257,9 @@ A website to help people who want to build a new pc
 <h3>Content</h3>
 <ul>
   <li>All the content for the website was written by the owner of Essex Pc's</li>
+</ul>
+<p>All media used for the website was taken from pexels</p>
+<ul>
+  <li><a href="https://www.pexels.com/@zeleboba/">Andrey Matveev</a></li>
+  <li><a href="https://www.pexels.com/@mintworkspace/">Minh Phuc</a></li>
 </ul>
