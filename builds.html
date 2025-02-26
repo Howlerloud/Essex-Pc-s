@@ -16,7 +16,7 @@
   <script>
     function validateForm() {
       var x = document.forms["myForm"]["email"].value;
-      if (x === "") {
+      if (x == "" || x == null) {
         alert("Fields cannot be left blank");
         return false;
       }
