@@ -122,7 +122,7 @@ A website to help people who want to build or buy a new pc
    <p>Github Pages was used to deploy the live website. The instructions to achieve this are below:</p>  
 <ol>
   <li>Log in (or sign up) to Github.</li>
-  <li>Find the repository for this project, Bully-Book-Club.</li>
+  <li>Find the repository for this project, Essex-Pc-s.</li>
   <li>Click on the Settings link.</li>
   <li>Click on the Pages link in the left hand side navigation bar.</li>
   <li>In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.</li>
@@ -137,7 +137,7 @@ A website to help people who want to build or buy a new pc
   <li>Click the Fork button in the top right corner.</li>
   </ol>
 <h4>How to Clone</h4>
-<p>To clone the Bully-Book-Club repository:</p>
+<p>To clone the Essex-Pc-s repository:</p>
 <ol>
   <li>Log in (or sign up) to GitHub.</li>
   <li>Go to the repository for this project, https://github.com/Howlerloud/Essex-Pc-s.</li>
