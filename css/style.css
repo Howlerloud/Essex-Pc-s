@@ -24,7 +24,7 @@ body {
   top: -15px;
   left: 0;
   /* Background source - https://www.pexels.com/photo/black-and-gray-motherboard-2582937/ */
-  background-image: url("../media/navbar_background.jpeg");
+  background-image: url("../assets/navbar_background.jpeg");
   background-color: black;
   background-size: cover;
   font-family: Arial, sans-serif;
