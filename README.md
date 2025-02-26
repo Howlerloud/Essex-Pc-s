@@ -246,9 +246,8 @@ A website to help people who want to build a new pc
 <img src="assets/readme_media/form_lighthouse_mobile.jpg">
 <p>When testing my webpage using lighthouse it highlights the fact my navigation bar takes the longest to load due to the jpg and the size of the bar. To help I used tinypng to compress the image. It instead recommends updating my jpg to the next gen format WebP and AVIF.</p>
 <br>
-<p>Lighthouse also suggests preconnecting thrid party origins like my youtube iframe</p>
+<p>Lighthouse also suggests preconnecting third party origins like my youtube iframe</p>
 <hr>
-
 
 <h2>Credits</h2>
 <h3>Code Used</h3>
@@ -258,4 +257,9 @@ A website to help people who want to build a new pc
 <h3>Content</h3>
 <ul>
   <li>All the content for the website was written by the owner of Essex Pc's</li>
+</ul>
+<p>All media used for the website was taken from pexels</p>
+<ul>
+  <li><a href="https://www.pexels.com/@zeleboba/">Andrey Matveev</a></li>
+  <li><a href="https://www.pexels.com/@mintworkspace/">Minh Phuc</a></li>
 </ul>
