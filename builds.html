@@ -18,7 +18,7 @@
   <script>
     function validateForm() {
       var x = document.forms["myForm"]["email"].value;
-      if (x === "") {
+      if (x == "" || x == null) {
         alert("Fields cannot be left blank");
         return false;
       }
@@ -66,10 +66,10 @@
         <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
           What do you think of The FPS Slayer?
           <br>
-          <input type="email" aria-describedby="emailHelp" class="form-control" id="Email"
+          <input type="email" aria-describedby="emailHelp" name="Email"
           placeholder="email@gmail.com">
           <br>
-          <input class="feedback" type="text" name="fname" placeholder="Your Feedback">
+          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
           <br>
           <input type="submit">
         </form>
