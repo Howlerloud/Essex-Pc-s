@@ -15,12 +15,12 @@
   <!-- Java script for form from w3schools-->
   <script>
     function validateForm() {
-      var x = document.forms["myForm"]["email"].value;
-      if (x == "" || x == null) {
-        alert("Fields cannot be left blank");
-        return false;
-      }
-    }
+    var x = document.forms["myForm"]["email"].value;
+    if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
   </script>
 
 </head>
@@ -64,12 +64,8 @@
         <p class="price">A steal at £1600</p>
 
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
-          What do you think of The FPS Slayer?
-
-          <br>
-          <input type="email" class="form-control" id="email"
-          placeholder="email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+          Email:<input type="text" name="email" placeholder="Email@gmail.com">
           <br>
           <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
           <br>
@@ -95,11 +91,8 @@
         </ul>
         <p class="price">All for the price of £1000</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
-          What do you think of The FPS Slayer?
-          <br>
-          <input type="email" class="form-control" name="email"
-          placeholder="email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+          Email:<input type="text" name="email" placeholder="Email@gmail.com">
           <br>
           <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
           <br>
@@ -125,11 +118,8 @@
         </ul>
         <p class="price">All for the price of £700</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
-          What do you think of The Foundation?
-          <br>
-          <input type="email" class="form-control" name="email"
-          placeholder="email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+          Email:<input type="text" name="email" placeholder="Email@gmail.com">
           <br>
           <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
           <br>
@@ -156,11 +146,8 @@
         </ul>
         <p class="price">All for the price of £1500</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post">
-          What do you think of The Underdog?
-          <br>
-          <input type="email" class="form-control" name="email"
-          placeholder="email@gmail.com">
+        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+          Email:<input type="text" name="email" placeholder="Email@gmail.com">
           <br>
           <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
           <br>
