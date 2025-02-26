@@ -12,17 +12,6 @@
   <!-- My Stylesheet -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
   
-  <!-- Java script for form from w3schools-->
-  <script>
-    function validateForm() {
-    var x = document.forms["myForm"]["email"].value;
-    if (x == "" || x == null) {
-    alert("Email and feedback must be filled out");
-    return false;
-  }
-}
-  </script>
-
 </head>
 
 <body>
@@ -64,10 +53,10 @@
         <p class="price">A steal at £1600</p>
 
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm()" method="post" required>
+        <form name="myForm" action="form.html" method="post" required>
           Email:<input type="email" name="email" placeholder="Email@gmail.com">
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
+          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
           <br>
           <input type="submit" value="Submit">
         </form>
@@ -93,13 +82,14 @@
         </ul>
         <p class="price">All for the price of £1000</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm1()" method="post" required>
+        <form name="myForm" action="form.html" method="post" required>
           Email:<input type="email" name="email" placeholder="Email@gmail.com">
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
+          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
           <br>
           <input type="submit" value="Submit">
         </form>
+
       </div>
       <div class="firstbuild">
         <h2 class="buildtitle">The Foundation</h2>
@@ -120,13 +110,14 @@
         </ul>
         <p class="price">All for the price of £700</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm2()" method="post" required>
+        <form name="myForm" action="form.html" method="post" required>
           Email:<input type="email" name="email" placeholder="Email@gmail.com">
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
+          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
           <br>
           <input type="submit" value="Submit">
         </form>
+
       </div>
       <div class="firstbuild">
         <h2 class="buildtitle">The Underdog</h2>
@@ -148,12 +139,14 @@
         </ul>
         <p class="price">All for the price of £1500</p>
         <!--W3Schools form code edited-->
-        <form name="myForm" action="form.html" onsubmit="return validateForm3()" method="post" required>
+        <form name="myForm" action="form.html" method="post" required>
           Email:<input type="email" name="email" placeholder="Email@gmail.com">
           <br>
-          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback">
+          <input class="feedback" type="text" name="feedback" placeholder="Your Feedback" required>
           <br>
           <input type="submit" value="Submit">
+        </form>
+
         </form>
       </div>
     </section>
