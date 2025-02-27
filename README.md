@@ -71,7 +71,7 @@ A website to help people who want to build or buy a new PC.
 <h2>Features</h2>
 <p>The website consists of 4 pages, the home page, the builds page, the contact us page and the feedback page. The home page consists of 3 sections giving detailed instruction of what to consider when choosing your new PC parts, the second showcasing a video of how to build your own PC and the last listing common causes of PC faults</p>
 <ul>
-  <li>All the pages will consist of a navigation bar that aligns to the left side of the screen that scales with the size of the viewers resolution. Once the resolution hits 700px wide the website adjusts moving the navigation bar from the left to the top of the screen using a media query, this improves the users experience. The navigation bar will have a background of a motherboard that contrasts well with the font colour. The navigation bar will include links the Home, Contact us and Builds page.  </li>
+  <li>All the pages will consist of a navigation bar that aligns to the left side of the screen that scales with the size of the viewers resolution. Once the resolution hits 700px wide the website adjusts moving the navigation bar from the left to the top of the screen using a media query, this improves the users experience. The navigation bar will have a background of a motherboard that contrasts well with the font colour. The navigation bar will include links to the Home, Contact us and Builds page.  </li>
 </ul>
   <h3>Home Page</h3>
 <ul>
@@ -151,10 +151,10 @@ A website to help people who want to build or buy a new PC.
 <p>The following issues were raised during the projects development</p>
 <ul>
   <li>When changing the window size of builds before it hit the 700px media query mark the inline builds would become staggered. Fixed by simply using vertical-align: top; to stop the adjustment when changing screen sizes</li> </li>
-  <li>When the website was viewed at lest than 700px width the images would overlap the fixed navigation bar. Fixed using z index to give the navbar priority.</li>
+  <li>When the website was viewed at less than 700px width the images would overlap the fixed navigation bar. Fixed using z index to give the navbar priority.</li>
   <li>When building the website capital letters were used for file paths, this caused issues when it was uploaded to GitHub and was corrected to allow compatibility</li>
   <li>During the initial planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
-  <li>Originally my forms used a JavaScript syntax to inform the user that all form boxes needed to be filler out using a pop up. It worked locally but when uploaded to git it would produce a 405 error. To address this I eventually used a "required" attribute instead.</li>
+  <li>Originally my forms used JavaScript syntax to inform the user that all form boxes needed to be filled out using a pop up. It worked locally but when uploaded to git it would produce a 405 error. To address this I eventually used a "required" attribute instead.</li>
 </ul>
 <h4>Testing Links</h4>
 <ol>
@@ -205,12 +205,12 @@ A website to help people who want to build or buy a new PC.
   </ul>
       <img src="assets/readme_media/builds.jpg">
       <ul>
-        <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It inaccessible on all pages except the form page which contains a link back to the home page.</li>
+        <li>I want easy to use navigation to find the information I need. The navigation bar is simple and easy to read located in the top left of the screen on desktop and at the top on mobile. It is inaccessible on all pages except the form page which contains a link back to the home page.</li>
       </ul>
           <img src="assets/readme_media/navigation.jpg">
           <img src="assets/readme_media/navigation_mobile.jpg">
           <ul>
-        <li>Im struggling to decide on a build, do you have physical store I can visit to see the PC build in person and decide? Yes you can come visit us at your local store on the highstreet!</li>
+        <li>Im struggling to decide on a build, do you have a physical store I can visit to see the PC build in person and decide? Yes you can come visit us at your local store on the highstreet!</li>
       </ul>
           <img src="assets/readme_media/find_us.jpg">
   <h4>Returning Users</h4>
@@ -228,7 +228,7 @@ A website to help people who want to build or buy a new PC.
  </ul>
  <img src="assets/readme_media/tiers.jpg">
  <ul>
-   <li>I want to be able to give my feedback of the builds listed. We have included a form under each build to give your opinion on the build and if you think it can be improved in anyway</li>
+   <li>I want to be able to give my feedback on the builds listed. We have included a form under each build to give your opinion on the build and if you think it can be improved in anyway</li>
  </ul>
  <img src="assets/readme_media/form.jpg">
 <h3>Performance Testing</h3>
@@ -250,9 +250,9 @@ A website to help people who want to build or buy a new PC.
 <img src="assets/readme_media/form_lighthouse.jpg">
   <p>form page scores mobile</p>
 <img src="assets/readme_media/form_lighthouse_mobile.jpg">
-<p>When testing my website using lighthouse it highlights the fact my navigation bar takes the longest to load due to the jpg and the size of the bar. To help I used tinypng to compress the image. It instead recommends updating my jpg to the next gen format WebP and AVIF.</p>
+<p>When testing my website using lighthouse it highlights the fact my navigation bar takes the longest to load due to the jpg and the size of the bar. To help, I used tinypng to compress the image. It instead recommends updating my jpg to the next gen format WebP and AVIF.</p>
 <br>
-<p>Lighthouse also suggests preconnecting third party origins like my YouTube iframe</p>
+<p>Lighthouse also suggests pre connecting third party origins like my YouTube iframe</p>
 <hr>
 
 <h2>Credits</h2>
