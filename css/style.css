@@ -75,6 +75,11 @@ h3 {
   text-align: center;
 }
 
+.formFeedback {
+  text-align: center;
+  text-decoration: underline;
+}
+
 /*Sections for index page*/
 .block_title {
   text-align: left;
