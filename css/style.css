@@ -80,6 +80,11 @@ h3 {
   text-align: left;
   width: 36vw;
 }
+/*Find us here photo*/
+#store {
+  width: 100%;
+  display: block;
+}
 
 .block_two {
   text-align: left;
@@ -253,8 +258,8 @@ textarea {
   font-size: 2rem;
 }
 
-/*Media query for anything below 900px to resize and restructure looks*/
-@media screen and (max-width: 900px) {
+/*Media query for anything below 1050px to resize and restructure looks*/
+@media screen and (max-width: 1050px) {
   .mobile_media {
     display: inline-block;
     vertical-align: bottom;
@@ -273,43 +278,42 @@ textarea {
     margin-right: 0rem;
   }
 
-   /*navigation bar rules */
-  .navbar ul {
-    list-style-type: none;
-    padding: 0px;
-    width: 100%;
-    height: 8rem;
-    border-bottom: 0.5px solid;
-    border-color: #b0b5ba;
-    position: fixed;
-    top: -16px;
-    left: 0;
-    /* Background source - https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg */
-    background-image: url("../assets/navbar_background.jpeg");
-    background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+/* navigation style*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
 
-  .navbar a {
-    text-decoration: none;
-    color: #d6e0e5;
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
-    height: 12vw;
-  }
+.topnav #myLinks {
+  display: none;
+}
 
-  .navbar {
-    width: 100%;
-    height: 8vw;
-    text-align: center;
-  }
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
 
-  .navbar ul li {
-    display: inline-block;
-    margin-right: 4px;
-    font-size: 3rem;
-  }
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #707070;
+  color: white;
+}
 
  /*List rules for index page to give them correct size and alignment*/
   .speclist li {
@@ -334,7 +338,6 @@ textarea {
 
   h1 {
     font-size: 1rem;
-    padding-top: 6rem;
   }
 
   h2{
@@ -415,47 +418,47 @@ textarea {
   }
   /*To correct margin when navigation bar moves to top of screen*/
   .margin {
-    margin-left: 0rem;
-    margin-right: 0rem;
+    margin-left: 10px;
+    margin-right:10px;
   }
 
-  /*navigation bar rules */
-  .navbar ul {
-    list-style-type: none;
-    padding: 0px;
-    width: 100%;
-    height: 8rem;
-    border-bottom: 0.5px solid;
-    border-color: #b0b5ba;
-    position: fixed;
-    top: -16px;
-    left: 0;
-    /* Background source - https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg */
-    background-image: url("../assets/navbar_background.jpeg");
-    background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* navigation style*/
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
   }
-
-  .navbar a {
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #d6e0e5;
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
-    height: 8vw;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #707070;
+    color: white;
   }
 
-  .navbar {
-    width: 100%;
-    height: 8vw;
-    text-align: center;
-  }
-
-  .navbar ul li {
-    display: inline-block;
-    margin-right: 4px;
-    font-size: 2rem;
-  }
   /*Headers and main style and font size*/
   main {
     margin-left: 0;
@@ -463,7 +466,6 @@ textarea {
 
   h1 {
     font-size: 1rem;
-    padding-top: 6rem;
   }
 
   h2{
