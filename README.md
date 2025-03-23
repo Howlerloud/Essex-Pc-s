@@ -155,6 +155,7 @@ A website to help people who want to build or buy a new PC.
   <li>When building the website capital letters were used for file paths, this caused issues when it was uploaded to GitHub and was corrected to allow compatibility</li>
   <li>During the initial planning of the website the chosen background colour was to be white but this was found to be hard on the eyes to viewers and was corrected early on in the development</li>
   <li>Originally my forms used JavaScript syntax to inform the user that all form boxes needed to be filled out using a pop up. It worked locally but when uploaded to git it would produce a 405 error. To address this I eventually used a "required" attribute instead.</li>
+  <li>When the builds page was first made there was an issue with the size of the builds containers resulting in one being bigger than the other, a height of 56rem was added to give the boxes all the same height no matter the content inside resulting in a better layout and user experience.</li>
 </ul>
 <h4>Testing Links</h4>
 <ol>
@@ -168,6 +169,13 @@ A website to help people who want to build or buy a new PC.
   <li>Trying to submit the feedback form with no fields filled will prompt the user to fill in the email first.</li>
   <li>Trying to submit the feedback form with just the email filled in will then be prompted to fill in the feedback section</li>
   <li>Once both email and feedback have been filled will the form allowed to be sent</li>
+  <li>Originally testing of the form found that it would work locally on the pc but when uploaded to github the form would break and not take you to the forms page but instead give a 405 error. This was fixed by removing the java script and swapping with a required field.</li>
+</ol>
+<h4>Testing Layout</h4>
+<ol>
+  <li>Resizing of the Home page shows no overlapping of images and text scales down as screen size is reduced. As screen size is reduced the media contents of the page will move below the text instead of being by its size allowing for the test to be bigger and more readable whilst not looking squashed.</li>
+  <li>Resizing of the Builds page shows all content boxes stay aligned up until the media query is hit where the containers are then stacked one on top of each other allowing for a great mobile experience.</li>
+  <li>Resizing of the Find us here page shows that the google iframe and media all have good presentation maintaining clear readability</li>
 </ol>
 <h3>W3C Validator</h3>
 <p>The W3C validator was used to validate the HTML on all pages of the website. Jigsaw was used to validate CSS in the style.css file.</p>
